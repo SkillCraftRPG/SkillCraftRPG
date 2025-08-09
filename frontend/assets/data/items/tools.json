@@ -1,0 +1,170 @@
+﻿[
+  {
+    "id": "fournitures-d-alchimiste",
+    "name": "Fournitures d’alchimiste",
+    "price": 50,
+    "weight": 4,
+    "description": "Cet ensemble comprend le nécessaire afin d’effectuer des réactions chimiques, soit deux béchers en verre, un cadre de maintien métallique, une tige en verre, un mortier, un pilon et des petites pochettes de réactifs communs."
+  },
+  {
+    "id": "fournitures-de-brasseur",
+    "name": "Fournitures de brasseur",
+    "price": 20,
+    "weight": 4,
+    "description": "Cet ensemble comprend une grande cruche en verre, un siphon, quelques mètres de tube et différents houblons."
+  },
+  {
+    "id": "fournitures-de-peintre",
+    "name": "Fournitures de peintre",
+    "price": 10,
+    "weight": 2.5,
+    "description": "Cet ensemble comprend un chevalet, des toiles, une palette, des brosses et pinceaux, et du charbon de bois."
+  },
+  {
+    "id": "outils-de-bricoleur",
+    "name": "Outils de bricoleur",
+    "price": 50,
+    "weight": 5,
+    "description": "Ces outils consistent en une variété d’outils manuels tels un petit marteau et des ciseaux, du fil de métal, des aiguilles, des retailles de tissu, une pierre à aiguiser et un petit pot de colle."
+  },
+  {
+    "id": "outils-de-calligraphe",
+    "name": "Outils de calligraphe",
+    "price": 10,
+    "weight": 2.5,
+    "description": "Ces outils comprennent plusieurs plumes à écrire de différent calibre, différentes qualités et couleurs d’encre et une douzaine de parchemins."
+  },
+  {
+    "id": "outils-de-cartographe",
+    "name": "Outils de cartographe",
+    "price": 15,
+    "weight": 3,
+    "description": "Ces outils comprennent une plume à écrire, de l’encre, trois parchemins, un compas, une règle et un pied à coulisse."
+  },
+  {
+    "id": "outils-de-cordonnier",
+    "name": "Outils de cordonnier",
+    "price": 5,
+    "weight": 2.5,
+    "description": "Ces outils comprennent un support à chaussures, un couteau, un poinçon, un marteau, un graveur, des retailles de cuir, du fil à coudre et du cordon."
+  },
+  {
+    "id": "outils-de-forgeron",
+    "name": "Outils de forgeron",
+    "price": 20,
+    "weight": 4,
+    "description": "Ces outils comprennent un ensemble de marteaux et de pinces, du charbon, des chiffons et de la pierre à aiguiser."
+  },
+  {
+    "id": "outils-de-joaillier",
+    "name": "Outils de joaillier",
+    "price": 25,
+    "weight": 1,
+    "description": "Ces outils comprennent un ensemble de petits marteaux et scies, des limes, des pinces et des pincettes."
+  },
+  {
+    "id": "outils-de-macon",
+    "name": "Outils de maçon",
+    "price": 10,
+    "weight": 4,
+    "description": "Ces outils comprennent une truelle, un marteau, un ciseau à pierre, des brosses et une équerre."
+  },
+  {
+    "id": "outils-de-maroquinier",
+    "name": "Outils de maroquinier",
+    "price": 5,
+    "weight": 2.5,
+    "description": "Ces outils comprennent un couteau, un petit maillet, une déligneuse, un perforateur, du fil et des retailles de cuir."
+  },
+  {
+    "id": "outils-de-menuisier",
+    "name": "Outils de menuisier",
+    "price": 8,
+    "weight": 3,
+    "description": "Ces outils comprennent une scie, un marteau, des clous, une équerre, une règle, une herminette, des ciseaux à bois et un niveau."
+  },
+  {
+    "id": "outils-de-navigateur",
+    "name": "Outils de navigateur",
+    "price": 25,
+    "weight": 1,
+    "description": "Ces outils comprennent un sextant, une boussole, un pied à coulisse, une règle, trois parchemins, une plume à écrire et de l’encre."
+  },
+  {
+    "id": "outils-de-potier",
+    "name": "Outils de potier",
+    "price": 10,
+    "weight": 1.5,
+    "description": "Ces outils contiennent des aiguilles de potier, des nervures en bois, un pied à coulisse, des grattoirs et un couteau."
+  },
+  {
+    "id": "outils-de-sculpteur-sur-bois",
+    "name": "Outils de sculpteur sur bois",
+    "price": 1,
+    "weight": 2.5,
+    "description": "Ces outils comprennent un couteau, une petite scie et un ciseau à dégarnir."
+  },
+  {
+    "id": "outils-de-souffleur-de-verre",
+    "name": "Outils de souffleur de verre",
+    "price": 30,
+    "weight": 2.5,
+    "description": "Ces outils comprennent un chalumeau, un marbre, des blocs et des pincettes."
+  },
+  {
+    "id": "outils-de-tisserand",
+    "name": "Outils de tisserand",
+    "price": 1,
+    "weight": 2.5,
+    "description": "Ces outils comprennent du fil et des aiguilles à coudre, ainsi que des retailles de tissu. Le personnage sait manœuvrer un métier à tissu, mais cet outil est bien trop massif pour être trimballé."
+  },
+  {
+    "id": "outils-de-voleur",
+    "name": "Outils de voleur",
+    "price": 25,
+    "weight": 0.5,
+    "description": "Ces outils comprennent une petite lime, un jeu de crochetage, un petit miroir monté sur une tige métallique, une paire de ciseaux à lame étroite et des pinces."
+  },
+  {
+    "id": "trousse-de-deguisement",
+    "name": "Trousse de déguisement",
+    "price": 25,
+    "weight": 1.5,
+    "description": "Cette trousse contient du maquillage, de la teinture pour cheveux, de petits accessoires et quelques morceaux de vêtements."
+  },
+  {
+    "id": "trousse-de-falsification",
+    "name": "Trousse de falsification",
+    "price": 15,
+    "weight": 2.5,
+    "description": "Cette trousse contient plusieurs plumes à écrire de différent calibre, différentes qualités et couleurs d’encre, une variété de papiers et parchemins, de la cire à cacheter, des sceaux, des feuilles d’argent et d’or très fines, et de petits outils pour sculpter la cire à cacheter afin d’imiter un sceau."
+  },
+  {
+    "id": "trousse-de-premiers-soins",
+    "name": "Trousse de premiers soins",
+    "price": 5,
+    "weight": 1.5,
+    "description": "Cette trousse contient des bandages, des baumes, des attelles, des pincettes et un couteau de précision. Elle contient 10 charges. Lorsque toutes les charges sont utilisées, la trousse doit être remplacée au complet par mesures d’hygiène."
+  },
+  {
+    "id": "trousse-d-empoisonneur",
+    "name": "Trousse d’empoisonneur",
+    "price": 50,
+    "weight": 1,
+    "description": "Cette trousse contient des fioles en verre, un mortier et un pilon, une tige en verre et des réactifs communs."
+  },
+  {
+    "id": "trousse-d-herboristerie",
+    "name": "Trousse d’herboristerie",
+    "price": 5,
+    "weight": 1.5,
+    "description": "Cette trousse contient des sachets pour entreposer des herbes, un mortier et un pilon, des bocaux de verre, ainsi que de gants et des sécateurs permettant de collecter des herbes."
+  },
+  {
+    "id": "ustensiles-de-cuisinier",
+    "name": "Ustensiles de cuisinier",
+    "price": 1,
+    "weight": 4,
+    "description": "Ces outils comprennent un chaudron, des couteaux, des fourchettes et des cuillères de différentes tailles et quantités, ainsi qu’une variété d’articles de cuisine communs telle une râpe, une louche et un fouet."
+  }
+]

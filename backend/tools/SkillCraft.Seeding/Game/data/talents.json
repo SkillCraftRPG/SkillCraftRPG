@@ -992,7 +992,7 @@
     "Slug": "formation-martiale",
     "Name": "Formation martiale",
     "Summary": "Formé aux armes martiales de mêlée, aux armures moyennes et aux boucliers moyens.",
-    "Description": "Forme le personnage au maniement des armes martiales de mêlée.\n\nIl est également formé au port des armures moyennes et à l’utilisation des boucliers moyens.",
+    "Description": "Le personnage acquiert les capacités suivantes :\n\n- Il est formé au maniement des armes martiales de mêlée.\n- Il est formé au port des armures moyennes et à l’utilisation des boucliers moyens.\n- Lorsqu’il dégaine ou rengaine une arme, il peut en faire de même avec un bouclier en action libre.",
     "Notes": "\uD83D\uDD17"
   },
   {

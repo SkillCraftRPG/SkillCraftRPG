@@ -1,0 +1,128 @@
+﻿[
+  {
+    "id": "bourse",
+    "name": "Bourse",
+    "price": 0.5,
+    "weight": 0.5,
+    "volume": "",
+    "capacity": 2.5,
+    "description": "Petit porte-monnaie en cuir maintenue fermée par une ficelle, elle peut contenir jusqu’à 500 pièces de monnaie."
+  },
+  {
+    "id": "bouteille",
+    "name": "Bouteille",
+    "price": 2,
+    "weight": 1,
+    "volume": "750 ml",
+    "capacity": 0,
+    "description": "Une bouteille en verre dotée d’un bouchon de liège."
+  },
+  {
+    "id": "carafe",
+    "name": "Carafe",
+    "price": 0.02,
+    "weight": 2,
+    "volume": "4 litres",
+    "capacity": 0,
+    "description": "Un grand récipient de verre muni d’un goulot, d’une poignée et d’un bec verseur. "
+  },
+  {
+    "id": "casserole",
+    "name": "Casserole",
+    "price": 2,
+    "weight": 5,
+    "volume": "4 litres",
+    "capacity": 0,
+    "description": "Une casserole en fer et son couvercle pour faire bouillir l’eau et cuire la nourriture."
+  },
+  {
+    "id": "chope",
+    "name": "Chope",
+    "price": 0.02,
+    "weight": 0.5,
+    "volume": "500 ml",
+    "capacity": 0,
+    "description": "Une grande tasse à boire en métal munie d’une poignée."
+  },
+  {
+    "id": "coffre",
+    "name": "Coffre",
+    "price": 5,
+    "weight": 12.5,
+    "volume": "0,3 m³",
+    "capacity": 150,
+    "description": "Un coffre portatif en bois ou en métal sur lequel on peut fixer un verrou."
+  },
+  {
+    "id": "fiole",
+    "name": "Fiole",
+    "price": 1,
+    "weight": 0,
+    "volume": "120 ml",
+    "capacity": 0,
+    "description": "Une petite fiole en verre dotée d’un petit bouchon de liège."
+  },
+  {
+    "id": "flasque",
+    "name": "Flasque",
+    "price": 0.02,
+    "weight": 0.5,
+    "volume": "500 ml",
+    "capacity": 0,
+    "description": "Un contenant plat métallique dotée d’un bouchon métallique."
+  },
+  {
+    "id": "gourde",
+    "name": "Gourde",
+    "price": 0.2,
+    "weight": 2.5,
+    "volume": "2 litres",
+    "capacity": 0,
+    "description": "Une gourde en forme de poire en cuir dotée d’un bouchon de liège et de sangles."
+  },
+  {
+    "id": "panier",
+    "name": "Panier",
+    "price": 0.4,
+    "weight": 1,
+    "volume": "0,06 m³",
+    "capacity": 20,
+    "description": "Un panier en osier tressé avec une poignée."
+  },
+  {
+    "id": "sac",
+    "name": "Sac",
+    "price": 0.01,
+    "weight": 0.2,
+    "volume": "0,03 m³",
+    "capacity": 15,
+    "description": "Un simple sac de toile, parfois doté d’une ficelle pour le maintenir fermé."
+  },
+  {
+    "id": "sac-a-dos",
+    "name": "Sac à dos",
+    "price": 2,
+    "weight": 2.5,
+    "volume": "0,03 m³",
+    "capacity": 15,
+    "description": "Un sac de cuir muni de sangles porté sur le dos. Il est muni de plusieurs pochettes et on peut y attacher divers articles, tel un sac de couchage ou une corde."
+  },
+  {
+    "id": "seau",
+    "name": "Seau",
+    "price": 0.05,
+    "weight": 1,
+    "volume": "12 litres",
+    "capacity": 0,
+    "description": "Un seau formé de lattes de bois maintenues par des cerceaux métalliques et d’une poignée."
+  },
+  {
+    "id": "tonneau",
+    "name": "Tonneau",
+    "price": 2,
+    "weight": 35,
+    "volume": "160 litres",
+    "capacity": 0,
+    "description": "Un tonneau formé de lattes de bois maintenues par des cerceaux métalliques."
+  }
+]

@@ -29,8 +29,20 @@ button:disabled {
   max-width: 800px;
 }
 
+.w-10 {
+  width: 10% !important;
+}
+
+.w-15 {
+  width: 15% !important;
+}
+
 .w-20 {
   width: 20% !important;
+}
+
+.w-33 {
+  width: 33.33% !important;
 }
 
 .w-40 {

@@ -50,8 +50,8 @@
           </li>
           <li>Les joueurs devraient s’assurer de choisir une langue partagée afin de permettre la communication au sein du groupe.</li>
           <li>
-            Le maître de jeu décide si les personnages savent lire et écrire. Par défaut, un personnage sait lire et écrire s’il est formé en
-            <NuxtLink to="/regles/competences/linguistique">Linguistique</NuxtLink>.
+            Le maître de jeu décide si les personnages savent lire et écrire. Par défaut, un personnage sait lire et écrire s’il est
+            <NuxtLink to="/regles/competences/formation">formé</NuxtLink> en <NuxtLink to="/regles/competences/linguistique">Linguistique</NuxtLink>.
             <br />
             Il peut tout de même se débrouiller avec quelques mots s’il n’est pas formé.
           </li>

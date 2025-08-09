@@ -17,7 +17,8 @@
       <h2 class="h3">Compétence</h2>
       <p>
         Cette <NuxtLink to="/regles/competences">compétence</NuxtLink> est fondamentale aux personnages de cette caste. Au moment de sa
-        <NuxtLink to="/regles/personnages/creation">création</NuxtLink>, il doit être formé pour celle-ci.
+        <NuxtLink to="/regles/personnages/creation">création</NuxtLink>, il doit être <NuxtLink to="/regles/competences/formation">formé</NuxtLink> pour
+        celle-ci.
       </p>
       <SkillCard class="mb-4" :skill="skill" />
     </template>

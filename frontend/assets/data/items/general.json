@@ -1,0 +1,408 @@
+﻿[
+  {
+    "id": "abaque",
+    "name": "Abaque",
+    "price": 2,
+    "weight": 1,
+    "description": "Permet de faire des calculs arithmétiques simples. Un boîtier de bois doté de tiges autour desquelles se trouvent de petits jetons."
+  },
+  {
+    "id": "allumettes",
+    "name": "Allumettes",
+    "price": 0.5,
+    "weight": 0.5,
+    "description": "Une petite boîte contenant un silex, de l’acier à feu et du tissu huileux. On peut allumer un feu par une action. Allumer un feu sans cet article nécessite généralement une minute."
+  },
+  {
+    "id": "attirail-de-peche",
+    "name": "Attirail de pêche",
+    "price": 1,
+    "weight": 2,
+    "description": "Une trousse comprenant une canne à pêche, de la ligne à pêche en soie, un flotteur en liège, des hameçons en fer, des poids de plomb, des appâts de velours et un filet étroit."
+  },
+  {
+    "id": "balance",
+    "name": "Balance",
+    "price": 5,
+    "weight": 1.5,
+    "description": "Une balance composée de deux pesées et un assortiment de petits poids jusqu’à 1 kilogramme. Elle permet de mesurer précisément la masse d’objets et de métaux précieux."
+  },
+  {
+    "id": "belier-portatif",
+    "name": "Bélier portatif",
+    "price": 4,
+    "weight": 16,
+    "description": "Permet de briser une porte. Confère un bonus de +5 au test d’Athlétisme."
+  },
+  {
+    "id": "billes-1000",
+    "name": "Billes (1000)",
+    "price": 1,
+    "weight": 1,
+    "description": "Permet de couvrir un carré de 3 mètres de côté par une action. Une créature doit se déplacer à la moitié de la vitesse dans la zone, sinon elle doit réussir un jet de sauvegarde d’Acrobaties de difficulté moyenne afin de ne pas être renversée. Il faut au moins 1000 billes pour couvrir un carré de 3 mètres de côté."
+  },
+  {
+    "id": "bloc-d-encens",
+    "name": "Bloc d’encens",
+    "price": 0.1,
+    "weight": 0,
+    "description": "Un petit bloc d’encens pesant environ 1 gramme. Brûlé dans un encensoir sur des charbons ardents de résines végétales, il répand une odeur forte, mais camphrée, cireuse et épicée."
+  },
+  {
+    "id": "chaine-3-metres",
+    "name": "Chaîne (3 mètres)",
+    "price": 5,
+    "weight": 5,
+    "description": "Une chaîne métallique. Elle est dotée de 10 points de Résistance. On peut la briser en réussissant un test d’Athlétisme de difficulté très élevée. La longueur standard est de 3 mètres."
+  },
+  {
+    "id": "chandelle",
+    "name": "Chandelle",
+    "price": 0.01,
+    "weight": 0,
+    "description": "Lorsqu’elle est allumée, elle émet de la clarté dans un rayon de 1,5 mètres et de la pénombre dans un rayon supplémentaire de 1,5 mètres pendant une heure."
+  },
+  {
+    "id": "chausse-trapes-20",
+    "name": "Chausse-trapes (20)",
+    "price": 1,
+    "weight": 1,
+    "description": "Permet de couvrir une case par une action. Une créature traversant cette case doit se déplacer à la moitié de sa vitesse ou effectuer un jet de sauvegarde d’Acrobaties de difficulté élevée. En cas d’échec, elle reçoit 1 point de dégâts perçants et sa vitesse est réduite de 2 jusqu’à ce qu’elle récupère 1 point de Vitalité. Cette réduction n’est pas cumulable. Une créature immunisée aux points de dégâts perçants n’est pas affectée par les chausse-trapes. Il faut au moins 20 chausse-trapes pour couvrir une case."
+  },
+  {
+    "id": "chevaliere",
+    "name": "Chevalière",
+    "price": 5,
+    "weight": 0,
+    "description": "Bague à large chaton engravée d’armoiries ou d’initiales destinée à appliquer un sceau de cire."
+  },
+  {
+    "id": "cire-a-cacheter",
+    "name": "Cire à cacheter",
+    "price": 0.5,
+    "weight": 0,
+    "description": "Lorsqu’elle est réchauffée, on l’utilise pour appliquer le sceau d’une chevalière."
+  },
+  {
+    "id": "clochette",
+    "name": "Clochette",
+    "price": 1,
+    "weight": 0,
+    "description": "Une petite clochette métallique servant à avertir par un son."
+  },
+  {
+    "id": "corde-15-metres",
+    "name": "Corde (15 mètres)",
+    "price": 1,
+    "weight": 5,
+    "description": "Une corde de chanvre dotée de 2 points de Vitalité. On peut la briser en réussissant un test d’Athlétisme de difficulté élevée. La longueur standard est de 15 mètres."
+  },
+  {
+    "id": "couverture",
+    "name": "Couverture",
+    "price": 0.5,
+    "weight": 1.5,
+    "description": "Une couverture chaude protégeant des nuits froides pour une personne."
+  },
+  {
+    "id": "craie",
+    "name": "Craie",
+    "price": 0.01,
+    "weight": 0,
+    "description": "Cette pièce permet d’écrire et de marquer des surfaces diverses laissant une trace blanche ou colorée."
+  },
+  {
+    "id": "echelle-3-metres",
+    "name": "Échelle (3 mètres)",
+    "price": 0.1,
+    "weight": 12.5,
+    "description": "Une simple échelle en bois d’une hauteur de 3 mètres."
+  },
+  {
+    "id": "encensoir",
+    "name": "Encensoir",
+    "price": 5,
+    "weight": 7.5,
+    "description": "L’encensoir est un vase brûle-parfum en métal décoré de motifs religieux. On le tient par une petite chaînette métallique, ce qui permet de le balancer. On peut y faire brûler de l’encens sur des charbons ardents de résines végétales."
+  },
+  {
+    "id": "encre-30-ml",
+    "name": "Encre (30 ml)",
+    "price": 10,
+    "weight": 0,
+    "description": "Utilisée avec une plume à écrire, l’encre permet d’écrire sur un parchemin ou sur du papier."
+  },
+  {
+    "id": "etui-a-parchemin",
+    "name": "Étui à parchemin",
+    "price": 1,
+    "weight": 0.5,
+    "description": "Un petit cylindre de cuir pouvant contenir jusqu’à 5 parchemins roulés ou jusqu’à 10 feuilles de papier roulées."
+  },
+  {
+    "id": "ficelle-15-metres",
+    "name": "Ficelle (15 mètres)",
+    "price": 10,
+    "weight": 2.5,
+    "description": "Une ficelle de soie dotée de 2 points de Vitalité. On peut la briser en réussissant un test d’Athlétisme de difficulté élevée. La longueur standard est de 15 mètres."
+  },
+  {
+    "id": "gamelle",
+    "name": "Gamelle",
+    "price": 0.2,
+    "weight": 0.5,
+    "description": "Un ensemble de vaisselle et d’ustensiles en étain servant à manger de manière hygiénique."
+  },
+  {
+    "id": "grappin",
+    "name": "Grappin",
+    "price": 2,
+    "weight": 2,
+    "description": "On l’attache à une corde et on le fixe à une saillie comme le rebord d’une fenêtre, une branche d’arbre ou à des créneaux afin d’en faciliter l’escalade."
+  },
+  {
+    "id": "grimoire",
+    "name": "Grimoire",
+    "price": 50,
+    "weight": 1.5,
+    "description": "Un tome de 100 pages reliées par une couverture de cuir nécessaire aux Astromanciens."
+  },
+  {
+    "id": "huile-a-lanterne",
+    "name": "Huile à lanterne",
+    "price": 0.1,
+    "weight": 0.5,
+    "description": "Elle sert à allumer des lanternes, lampes et réverbères. On peut aussi l’utiliser comme arme de jet improvisée (portée de 6 mètres) afin de couvrir une cible d’huile. La prochaine fois que la cible reçoit des points de dégâts de feu, l’huile s’enflammera et lui infligera 3d6 points de dégâts supplémentaires. Il est également possible de répandre l’huile dans une case au sol par une action et de l’allumer au plus une minute plus tard par une autre action. L’huile s’enflamme, causant 3d6 points de dégâts à toute créature traversant ou s’arrêtant dans cette case."
+  },
+  {
+    "id": "lampe",
+    "name": "Lampe",
+    "price": 0.5,
+    "weight": 0.5,
+    "description": "Lorsqu’elle est allumée, elle émet de la clarté dans un rayon de 4,5 mètres et de la pénombre dans un rayon supplémentaire de 9 mètres. Elle consomme environ 2 onces d’huile (62,5 ml) par heure, soit une flasque (500 ml) pour 8 heures."
+  },
+  {
+    "id": "lanterne",
+    "name": "Lanterne",
+    "price": 5,
+    "weight": 1,
+    "description": "Lorsqu’elle est allumée, elle émet de la clarté dans un rayon de 9 mètres et de la pénombre dans un rayon supplémentaire de 9 mètres. Elle est dotée d’un capuchon permettant de réduire sa lumière à un rayon de 1,5 mètres de pénombre. Elle consomme environ 2 onces d’huile (62,5 ml) par heure, soit une flasque (500 ml) pour 8 heures."
+  },
+  {
+    "id": "livre",
+    "name": "Livre",
+    "price": 25,
+    "weight": 2.5,
+    "description": "Un livre de 10 à 100 pages reliées par une couverture de cuir ou de papier durci. Il peut être vierge ou contenir de l’information représentée par du texte et des dessins."
+  },
+  {
+    "id": "longue-vue",
+    "name": "Longue-vue",
+    "price": 1000,
+    "weight": 0.5,
+    "description": "Cette longue-vue rétractable en métal possède un ensemble de loupes de précision. Elle permet de doubler la distance de vision."
+  },
+  {
+    "id": "loupe",
+    "name": "Loupe",
+    "price": 100,
+    "weight": 0,
+    "description": "Permet d’observer de proche des objets de petite taille. Peut également être utilisée afin d’allumer un feu en 5 minutes avec la lumière du Soleil et un matériau facilement inflammable. Elle confère l’avantage aux tests d’Investigation effectués afin d’estimer la valeur ou d’inspecter un objet de petite taille ou muni de détails complexes."
+  },
+  {
+    "id": "marteau",
+    "name": "Marteau",
+    "price": 1,
+    "weight": 1.5,
+    "description": "Permet d’enfoncer des pitons dans un mur ou des pieux dans la terre."
+  },
+  {
+    "id": "masse",
+    "name": "Masse",
+    "price": 2,
+    "weight": 5,
+    "description": "Utile pour défoncer un coffre ou une porte."
+  },
+  {
+    "id": "menottes",
+    "name": "Menottes",
+    "price": 2,
+    "weight": 3,
+    "description": "Elles permettent de restreindre une créature de taille moyenne ou moindre. Elles possèdent 15 points de Résistance, et on peut les briser ou s’en échapper par un jet de sauvegarde d’Athlétisme ou d’Acrobaties de difficulté très élevée. Elles sont également verrouillées par une clé qui est unique par paire. Il est possible de les crocheter par un test de Roublardise de difficulté élevée."
+  },
+  {
+    "id": "miroir",
+    "name": "Miroir",
+    "price": 5,
+    "weight": 0.2,
+    "description": "Permet d’admirer son reflet, de regarder une créature indirectement, d’observer un coin, de signaler avec un faisceau de lumière ou d’observer une blessure difficile à voir."
+  },
+  {
+    "id": "palan",
+    "name": "Palan",
+    "price": 1,
+    "weight": 2.5,
+    "description": "Ensemble de poulies et d’une corde pouvant être attaché à un objet, permettant de réduire de 75 % le poids d’un objet à soulever."
+  },
+  {
+    "id": "papier",
+    "name": "Papier",
+    "price": 0.2,
+    "weight": 0,
+    "description": "Une feuille de papier standard fabriquée à partir de fibres textiles."
+  },
+  {
+    "id": "parchemin",
+    "name": "Parchemin",
+    "price": 0.1,
+    "weight": 0,
+    "description": "Une feuille de parchemin pour écrire fabriquée à partir de peau d’animal."
+  },
+  {
+    "id": "parfum-30-ml",
+    "name": "Parfum (30 ml)",
+    "price": 5,
+    "weight": 0,
+    "description": "Une denrée habituellement utilisée par les gens fortunés, permet de masquer ou de se démarquer par son odeur."
+  },
+  {
+    "id": "pelle",
+    "name": "Pelle",
+    "price": 2,
+    "weight": 2.5,
+    "description": "Permet de creuser le sol."
+  },
+  {
+    "id": "perche-3-metres",
+    "name": "Perche (3 mètres)",
+    "price": 0.05,
+    "weight": 3.5,
+    "description": "Permet de manipuler quelque chose à distance. On peut aussi l’utiliser en prenant son élan afin de doubler la distance d’un saut en hauteur."
+  },
+  {
+    "id": "pied-de-biche",
+    "name": "Pied de biche",
+    "price": 2,
+    "weight": 2.5,
+    "description": "Confère l’avantage aux tests d’Athlétisme pour forcer quelque chose avec l’effet de levier."
+  },
+  {
+    "id": "piege-de-chasse",
+    "name": "Piège de chasse",
+    "price": 5,
+    "weight": 12.5,
+    "description": "Ce piège peut être installé dans une case par une action. Il doit être fixé sur un objet immobile avec une chaîne, par exemple sur un arbre ou au sol avec un pieu. Les dents métalliques se referment sur la jambe ou patte d’une créature marchant sur le déclencheur. Si celle-ci échoue un jet de sauvegarde d’Acrobaties de difficulté moyenne, elle reçoit 1d4 points de dégâts perçants et est restreinte. On peut aussi s’en libérer ou libérer une créature en réussissant un test d’Athlétisme de difficulté moyenne. Chaque test échoué inflige 1 point de dégât perçant à la créature restreinte. Les déplacements de la créature restreinte sont limités à la longueur de la chaîne."
+  },
+  {
+    "id": "pierre-a-aiguiser",
+    "name": "Pierre à aiguiser",
+    "price": 0.01,
+    "weight": 0.5,
+    "description": "Permet une halte, permet d’aiguiser une arme ou 5 munitions. La pierre ne sert ensuite plus à rien. L’aiguisage est de niveau 1 et est bon pour 5 attaques. L’arme ou les munitions doivent infliger des dégâts perçants ou tranchants."
+  },
+  {
+    "id": "pieu-de-fer",
+    "name": "Pieu de fer",
+    "price": 0.1,
+    "weight": 0.25,
+    "description": "Il peut être enfoncé dans la terre à l’aide d’un marteau afin de fixer un objet, par exemple une chaîne."
+  },
+  {
+    "id": "pioche",
+    "name": "Pioche",
+    "price": 2,
+    "weight": 5,
+    "description": "Permet de concentrer la force d’une frappe sur un point précis. Utile pour briser des objets solides et le roc."
+  },
+  {
+    "id": "piton",
+    "name": "Piton",
+    "price": 0.05,
+    "weight": 0.1,
+    "description": "En enfonçant des pitons dans une surface solide à l’aide d’un marteau, on peut créer des prises permettant ainsi l’escalade. Il est aussi muni d’un œillet permettant d’y passer ou bouclier une corde."
+  },
+  {
+    "id": "plume-a-ecrire",
+    "name": "Plume à écrire",
+    "price": 0.02,
+    "weight": 0,
+    "description": "On peut la tremper dans l’encre afin d’écrire ou de dessiner sur une surface poreuse."
+  },
+  {
+    "id": "ration",
+    "name": "Ration",
+    "price": 0.5,
+    "weight": 1,
+    "description": "De la viande et des fruits séchés, des galettes et des noix couvrant les repas pour une journée. Cette nourriture calorique permet de sauver de l’espace et possède un poids réduit, mais elle est moins savoureuse et surtout, plus longue et coûteuse à produire."
+  },
+  {
+    "id": "reverbere",
+    "name": "Réverbère",
+    "price": 10,
+    "weight": 1,
+    "description": "Une lanterne dotée d’un réflecteur en verre. Lorsqu’il est allumé, il émet de la clarté dans un cône de 18 mètres et de la pénombre jusqu’à 18 mètres plus loin. Il consomme environ 2 onces d’huile (62,5 ml) par heure, soit une flasque (500 ml) pour 8 heures."
+  },
+  {
+    "id": "sablier",
+    "name": "Sablier",
+    "price": 25,
+    "weight": 0.5,
+    "description": "Permet de mesurer le passage du temps. Chaque sablier a une durée fixe, par exemple une minute."
+  },
+  {
+    "id": "sac-de-couchage",
+    "name": "Sac de couchage",
+    "price": 1,
+    "weight": 3.5,
+    "description": "Permet de dormir sur le sol, par exemple dans une chambre d’auberge ou à l’extérieur. Il peut être combiné à une couverture pour les nuits froides."
+  },
+  {
+    "id": "savon",
+    "name": "Savon",
+    "price": 0.02,
+    "weight": 0,
+    "description": "Une denrée nécessaire au nettoyage d’articles et à la baignade."
+  },
+  {
+    "id": "sifflet",
+    "name": "Sifflet",
+    "price": 0.05,
+    "weight": 0,
+    "description": "Un petit sifflet utile afin de produire un avertissement sonore."
+  },
+  {
+    "id": "symbole-divin",
+    "name": "Symbole divin",
+    "price": 5,
+    "weight": 1.5,
+    "description": "La représentation d’une divinité, d’un culte ou d’un panthéon. Il permet aux Clercs de canaliser certains pouvoirs. Il peut être tenu dans la main, porté en collier ou fixé sur un bouclier."
+  },
+  {
+    "id": "tente-2-personnes",
+    "name": "Tente (2 personnes)",
+    "price": 2,
+    "weight": 10,
+    "description": "Une tente simple et portative permettant d’accueillir deux personnes."
+  },
+  {
+    "id": "torche",
+    "name": "Torche",
+    "price": 0.01,
+    "weight": 0.5,
+    "description": "Lorsqu’elle est allumée, elle émet de la clarté dans un rayon de 6 mètres et de la pénombre dans un rayon supplémentaire de 6 mètres pendant une heure. On peut l’utiliser comme arme improvisée afin d’infliger 1 point de dégâts de feu."
+  },
+  {
+    "id": "tronc",
+    "name": "Tronc",
+    "price": 7,
+    "weight": 2,
+    "description": "Un tronc est une petite boîte percée d’une fente que les membres d’un clergé utilisent afin de recueillir l’aumône. Ils disposent d’un loquet pouvant être verrouillé et sont souvent décorées de motifs religieux."
+  },
+  {
+    "id": "verrou",
+    "name": "Verrou",
+    "price": 10,
+    "weight": 0.5,
+    "description": "Un cadenas et une clé permettant de verrouiller une porte ou un coffre. On peut le crocheter par un test de Roublardise de difficulté élevée."
+  }
+]

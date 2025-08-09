@@ -4,7 +4,7 @@ import pkg from "./package.json";
 export default defineNuxtConfig({
   compatibilityDate: "2025-05-15",
   devtools: { enabled: true },
-  modules: ["usebootstrap"],
+  modules: ["usebootstrap", "@nuxtjs/i18n"],
   css: ["@fortawesome/fontawesome-svg-core/styles.css", "~/assets/styles/main.css"],
   app: {
     head: {
@@ -14,6 +14,10 @@ export default defineNuxtConfig({
         { rel: "apple-touch-icon", href: "/favicon-180.png" },
       ],
     },
+  },
+  i18n: {
+    defaultLocale: "fr",
+    locales: [{ code: "fr", name: "French" }],
   },
   runtimeConfig: {
     public: {

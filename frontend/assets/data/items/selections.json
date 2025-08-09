@@ -1,0 +1,68 @@
+{
+  "base": ["bourse", "corde-15-metres", "couverture", "gamelle", "gourde", "ration:7", "sac-a-dos", "sac-de-couchage"],
+  "custom": [
+    {
+      "key": "artiste",
+      "name": "Sélection d’artiste",
+      "description": "Cette sélection conviendra aux troubadours, artistes musiciens, jongleurs, chanteurs et amuseurs publics.",
+      "items": ["allumettes", "chandelle:10", "clochette", "costume-de-soiree:2", "craie:5", "sifflet", "trousse-de-deguisement", "vetements-de-voyage"]
+    },
+    {
+      "key": "erudit",
+      "name": "Sélection d’érudit",
+      "description": "Cette sélection conviendra aux savants, aux chercheurs et scientifiques, aux cartographes et aux adeptes de bibliothèques de ce monde.",
+      "items": ["allumettes", "chandelle:10", "encre-30-ml", "etui-a-parchemin", "livre", "parchemin:10", "plume-a-ecrire", "vetements-chics"]
+    },
+    {
+      "key": "explorateur",
+      "name": "Sélection d’explorateur",
+      "description": "Cette sélection est adaptée aux explorateurs en tous genres : aventuriers des milieux sauvages, des ruines urbaines et des réseaux de cavernes souterraines.",
+      "items": ["huile-a-lanterne:2", "marteau", "pied-de-biche", "pieu-de-fer:10", "piton:10", "reverbere", "torche:10", "vetements-de-voyage"]
+    },
+    {
+      "key": "cambrioleur",
+      "name": "Sélection de cambrioleur",
+      "description": "Cette sélection est adaptée aux maraudeurs et aux pillards : elle prépare autant leur entrée que leur sortie des lieux de crime.",
+      "items": [
+        "allumettes",
+        "billes-1000",
+        "chandelle:10",
+        "clochette",
+        "ficelle-15-metres",
+        "grappin",
+        "huile-a-lanterne:2",
+        "lanterne",
+        "marteau",
+        "pied-de-biche",
+        "piton:10",
+        "vetements-communs"
+      ]
+    },
+    {
+      "key": "diplomate",
+      "name": "Sélection de diplomate",
+      "description": "Cette sélection servira aux nobles, aux messagers ainsi qu’au négociateurs",
+      "items": [
+        "chevaliere",
+        "cire-a-cacheter",
+        "costume-de-soiree",
+        "encre-30-ml",
+        "etui-a-parchemin",
+        "huile-a-lanterne:2",
+        "lampe",
+        "miroir",
+        "papier:5",
+        "parfum-30-ml",
+        "plume-a-ecrire",
+        "savon",
+        "vetements-chics"
+      ]
+    },
+    {
+      "key": "ecclesiastique",
+      "name": "Sélection ecclésiastique",
+      "description": "Cette sélection est conçue spécialement pour les membres d’un clergé ou d’un culte religieux.",
+      "items": ["bloc-d-encens:2", "encensoir", "huile-a-lanterne:2", "lampe", "robe-liturgique", "symbole-divin", "tronc", "vetements-communs"]
+    }
+  ]
+}

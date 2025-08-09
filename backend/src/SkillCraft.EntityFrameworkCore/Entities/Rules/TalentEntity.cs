@@ -57,7 +57,7 @@ internal class TalentEntity : AggregateEntity
   public void SetRequiredTalent(TalentEntity? requiredTalent)
   {
     RequiredTalent = requiredTalent;
-    RequiredTalentId = requiredTalent?.RequiredTalentId;
+    RequiredTalentId = requiredTalent?.TalentId;
     RequiredTalentUid = requiredTalent?.Id;
   }
 

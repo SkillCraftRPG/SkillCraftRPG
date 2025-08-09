@@ -1,0 +1,35 @@
+[
+  {
+    "id": "targe",
+    "category": "Light",
+    "name": "Targe",
+    "price": 10,
+    "weight": 2,
+    "defense": 1,
+    "resistance": 5,
+    "properties": [],
+    "description": "Petit bouclier métallique d’au-plus 40 centimètres de diamètre se tenant à la main, principalement utilisé au combat rapproché."
+  },
+  {
+    "id": "ecu",
+    "category": "Medium",
+    "name": "Écu",
+    "price": 25,
+    "weight": 4,
+    "defense": 2,
+    "resistance": 10,
+    "properties": [],
+    "description": "Le bouclier le plus couramment utilisé, portant généralement un blason, soit les armoiries de son porteur. Il est de forme rectangulaire pour les fantassins, ou de forme ogivale pour les cavaliers."
+  },
+  {
+    "id": "pavois",
+    "category": "Heavy",
+    "name": "Pavois",
+    "price": 400,
+    "weight": 8,
+    "defense": 2,
+    "resistance": 20,
+    "properties": ["Bruyant", "Rempart"],
+    "description": "Grand bouclier conçu à l’origine afin de protéger les arbalétriers. Il couvre tout le corps de son porteur et peut se fixer au sol au moyen d’un pieu afin de servir de demi-abri. Il confère 2 points de Défense supplémentaires lorsqu’il est levé."
+  }
+]

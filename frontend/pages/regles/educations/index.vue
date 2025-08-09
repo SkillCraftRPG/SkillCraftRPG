@@ -5,8 +5,9 @@
     <p>Les éducations représentent différents modes de vie adoptés par les personnages pendant leurs premières années d’existence.</p>
     <p>Le joueur assigne une éducation à son personnage au moment de sa <NuxtLink to="/regles/personnages/creation">création</NuxtLink>.</p>
     <p>
-      Chaque éducation définit une <NuxtLink to="/regles/competences">compétence</NuxtLink> pour laquelle le personnage est formé, un multiplicateur permettant
-      de déterminer sa richesse de départ, ainsi qu’une particularité qui lui est propre.
+      Chaque éducation définit une <NuxtLink to="/regles/competences">compétence</NuxtLink> pour laquelle le personnage est
+      <NuxtLink to="/regles/competences/formation">formé</NuxtLink>, un multiplicateur permettant de déterminer sa
+      <NuxtLink to="/regles/equipement/depart">richesse de départ</NuxtLink>, ainsi qu’une particularité qui lui est propre.
     </p>
     <EducationList v-if="educations.length" :items="educations" />
   </main>

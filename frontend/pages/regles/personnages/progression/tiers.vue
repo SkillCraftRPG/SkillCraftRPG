@@ -9,7 +9,10 @@
     <h2 class="h3">Limites</h2>
     <p>Le tiers limite les capacités maximales du personnage, tel que décrit ci-dessous.</p>
     <ul>
-      <li>Le rang maximal de ses <NuxtLink to="/regles/competences">compétences</NuxtLink> est limité par son tiers.</li>
+      <li>
+        Le <NuxtLink to="/regles/competences/rang">rang maximal</NuxtLink> de ses <NuxtLink to="/regles/competences">compétences</NuxtLink> est limité par son
+        tiers.
+      </li>
       <li>Il ne peut acquérir des <NuxtLink to="/regles/talents">talents</NuxtLink> dont le tiers est supérieur au sien.</li>
       <li>De la même manière, il ne peut acquérir des <NuxtLink to="/regles/pouvoirs">pouvoirs</NuxtLink> dont le tiers est supérieur au sien.</li>
       <li>

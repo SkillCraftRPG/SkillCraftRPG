@@ -11,54 +11,10 @@
       la situation. Cet attribut intervient en ajoutant un bonus ou une pénalité au test d’une compétence.
     </p>
     <div class="row">
-      <div v-for="(item, index) in items" :key="index" class="col-xs-12 col-sm-6 mb-4">
+      <div v-for="(item, index) in items" :key="index" class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-4">
         <LinkCard class="d-flex flex-column h-100" :text="item.description" :title="item.title" :to="item.path" />
       </div>
     </div>
-    <h2 class="h3">Formation</h2>
-    <p>Le personnage est formé pour une compétence lorsqu’il acquiert le <NuxtLink to="/regles/talents">talent</NuxtLink> portant le même nom que celle-ci.</p>
-    <p>Un personnage formé pour une compétence maîtrise les aptitudes et savoir-faire, contrairement à une créature qui n’est pas formée.</p>
-    <p>Lorsqu’il est formé pour une compétence, il ne subit pas de pénalité au rang de celle-ci.</p>
-    <h2 class="h3">Rang</h2>
-    <p>
-      Le rang d’une compétence est similaire au <NuxtLink to="/regles/personnages/progression/niveau">niveau</NuxtLink> d’un personnage. Il est ajouté aux tests
-      de cette compétence. Seulement la moitié du rang est ajoutée si le personnage n’est pas formé pour cette compétence.
-    </p>
-    <p>
-      Un personnage possède un nombre de points de compétence égal à son <NuxtLink to="/regles/statistiques/apprentissage">Apprentissage</NuxtLink>. Il peut
-      dépenser un point afin d’augmenter de 1 le rang d’une compétence.
-    </p>
-    <p>
-      Lorsqu’un personnage acquiert un talent associé à une compétence, le rang de celle-ci augmente de 1. Si le rang maximal était atteint avant l’acquisition,
-      le personnage récupère un point de compétence qu’il peut dépenser afin d’augmenter le rang d’une aure compétence.
-    </p>
-    <p>Le rang maximal des compétences d’un personnage est défini par son <NuxtLink to="/regles/personnages/progression/tiers">tiers</NuxtLink>.</p>
-    <table class="table table-striped text-center">
-      <thead>
-        <tr>
-          <th scope="col" class="w-50">Tiers du personnage</th>
-          <th scope="col" class="w-50">Rang maximal</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>0</td>
-          <td>2</td>
-        </tr>
-        <tr>
-          <td>1</td>
-          <td>5</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>9</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>14</td>
-        </tr>
-      </tbody>
-    </table>
     <template v-if="skills.length">
       <h2 class="h3">Liste des compétences</h2>
       <SkillList :items="skills" />
@@ -79,14 +35,24 @@ type MenuItem = {
 };
 const items: MenuItem[] = [
   {
+    path: "/regles/competences/formation",
+    title: "Formation",
+    description: "Rôle et effets de la formation aux compétences.",
+  },
+  {
+    path: "/regles/competences/rang",
+    title: "Rang",
+    description: "Fonctionnement et progression des rangs de compétence.",
+  },
+  {
     path: "/regles/competences/tests",
     title: "Tests",
-    description: "Un test permet de déterminer si une action intentée est une réussite ou un échec. Les tests sont au cœur du système de résolution.",
+    description: "Permet de déterminer si une action intentée est une réussite ou un échec.",
   },
   {
     path: "/regles/competences/esperance-damnation",
     title: "Espérance et Damnation",
-    description: "Des ressources permettant aux joueurs et au maître de jeu d’influencer l’histoire en leur faveur.",
+    description: "Permettent aux joueurs et au maître de jeu d’influencer l’histoire.",
   },
 ];
 

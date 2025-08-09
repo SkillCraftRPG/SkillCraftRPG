@@ -29,8 +29,9 @@
     <template v-if="talent && skill">
       <h2 class="h3">Compétence</h2>
       <p v-if="talent.name === skill.name">
-        L’acquisition de ce talent forme le personnage pour la <NuxtLink to="/regles/competences">compétence</NuxtLink> ci-dessous. Elle augmente également de
-        +1 le rang de cette compétence.
+        L’acquisition de ce talent <NuxtLink to="/regles/competences/formation">forme</NuxtLink> le personnage pour la
+        <NuxtLink to="/regles/competences">compétence</NuxtLink> ci-dessous. Elle augmente également de +1 le
+        <NuxtLink to="/regles/competences/rang">rang</NuxtLink> de cette compétence.
       </p>
       <p v-else>L’acquisition de ce talent augmente de +1 le rang de la <NuxtLink to="/regles/competences">compétence</NuxtLink> ci-dessous.</p>
       <SkillCard class="mb-4" :skill="skill" />

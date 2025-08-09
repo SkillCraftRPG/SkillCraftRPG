@@ -22,7 +22,7 @@
       </li>
       <li>
         Ses <strong>points de compétence</strong> augmentent afin de refléter sa nouvelle valeur d’Apprentissage. Il peut dépenser ces points afin d’augmenter
-        le rang de ses <NuxtLink to="/regles/competences">compétences</NuxtLink>.
+        le <NuxtLink to="/regles/competences/rang">rang</NuxtLink> de ses <NuxtLink to="/regles/competences">compétences</NuxtLink>.
       </li>
       <li>
         Il reçoit <strong>1 point de talent</strong>. Il peut dépenser celui-ci afin d’acquérir un nouveau <NuxtLink to="/regles/talents">talent</NuxtLink> ou

@@ -39,7 +39,6 @@
     </p>
     <p>L’obtention d’une réussite critique ne signifie pas que vous infligez des <strong>points de dégâts</strong> supplémentaires, sauf lorsque indiqué.</p>
     <p>Les talents suivants augmentent vos chances d’obtenir une réussite critique lorsque vous effectuez une attaque :</p>
-    <!-- TODO(fpion): Talents -->
     <h2 class="h3"><font-awesome-icon icon="fas fa-triangle-exclamation" /> Attention</h2>
     <p>Lorsqu’une action est impossible à échouer ou à réussir, aucun <NuxtLink to="/regles/competences/tests">test</NuxtLink> n’est effectué.</p>
     <p>

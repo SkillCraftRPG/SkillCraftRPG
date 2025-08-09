@@ -12,9 +12,8 @@
     </p>
     <ol>
       <li>
-        <!-- TODO(fpion): lien vers "catégorie de taille" -->
         <strong>Taille (mètres).</strong> Le taille (ou hauteur) de votre personnage est purement descriptive, puisque tous les individus d’une même ascendance
-        appartiennent à la même <a href="#">catégorie de taille</a>, sauf indication contraire du maître de jeu.
+        appartiennent à la même <NuxtLink to="/regles/especes/taille">catégorie&nbsp;de&nbsp;taille</NuxtLink>, sauf indication contraire du maître de jeu.
       </li>
       <li>
         <strong>Poids (kilogrammes).</strong> Le poids de votre personnage est seulement utilisé lorsqu’il est soulevé ou transporté par une autre créature.

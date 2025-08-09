@@ -2,8 +2,9 @@
   <section>
     <h2 id="step-6" class="h3">Étape 6 — Compétences</h2>
     <p>
-      Cette étape consiste à dépenser les <strong>points de compétence</strong> du personnage afin d’augmenter le <strong>rang</strong> de ses
-      <NuxtLink to="/regles/competences">compétences</NuxtLink>. Elle est optionnelle, mais fortement recommandée.
+      Cette étape consiste à dépenser les <strong>points de compétence</strong> du personnage afin d’augmenter le
+      <NuxtLink to="/regles/competences/rang">rang</NuxtLink> de ses <NuxtLink to="/regles/competences">compétences</NuxtLink>. Elle est optionnelle, mais
+      fortement recommandée.
     </p>
     <p>
       À l’étape précédente, vous avez défini l’<NuxtLink to="/regles/attributs/intellect">Intellect</NuxtLink> de votre personnage, ce qui a déterminé son

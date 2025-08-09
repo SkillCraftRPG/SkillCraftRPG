@@ -7,7 +7,7 @@
       suivantes :
     </p>
     <ul>
-      <li>Votre personnage doit être formé pour la compétence associée à sa caste.</li>
+      <li>Votre personnage doit être <NuxtLink to="/regles/competences/formation">formé pour la compétence</NuxtLink> associée à sa caste.</li>
       <li>Votre personnage doit être formé pour la compétence associée à son éducation.</li>
       <li>Votre personnage doit être formé pour un minimum de 6 compétences, incluant les compétences associées à sa caste et à son éducation.</li>
       <li>Vous devez dépenser au minimum 10 points de talent.</li>
@@ -18,7 +18,6 @@
         <font-awesome-icon icon="fas fa-lightbulb" /> N’oubliez pas que l’ascendance de votre personnage lui confère un talent gratuit ou plusieurs rabais.
       </li>
     </ul>
-    <!-- TODO(fpion): à cette étape, un joueur ne sait pas comment "former un personnage pour une compétence". -->
     <!-- TODO(fpion): résumer chaque talent de compétence pour effectuer des suggestions au joueur -->
   </section>
 </template>

@@ -1,0 +1,51 @@
+﻿[
+  {
+    "id": "vetements-de-fortune",
+    "name": "Vêtements de fortune",
+    "price": 0.1,
+    "weight": 1,
+    "description": "Des vêtements de fortune fabriqués à partir de morceaux rapiécés et disparates, ou encore des vêtements minimaux. Personne ne devrait en porter, mais certains en sont obligés par pauvreté."
+  },
+  {
+    "id": "vetements-communs",
+    "name": "Vêtements communs",
+    "price": 1,
+    "weight": 2,
+    "description": "Des vêtements en laine, assez chauds pour les temps frisquets et respirant suffisamment pour la chaleur estivale. Ils sont idéaux pour se faire passer pour un roturier."
+  },
+  {
+    "id": "vetements-de-voyage",
+    "name": "Vêtements de voyage",
+    "price": 2,
+    "weight": 2,
+    "description": "Des vêtements tissés de laine et de coton afin de mieux résister aux intempéries. Ils sont idéaux pour se distinguer des roturiers sans pour autant se faire remarquer."
+  },
+  {
+    "id": "vetements-chics",
+    "name": "Vêtements chics",
+    "price": 15,
+    "weight": 3,
+    "description": "Des vêtements de qualité tissés en lin, confortables et flamboyants. Ils sont pour se faire remarquer et se faire inviter auprès de la noblesse."
+  },
+  {
+    "id": "costume-de-soiree",
+    "name": "Costume de soirée",
+    "price": 5,
+    "weight": 2,
+    "description": "Une version plus sobre du costume de noble. Il est toutefois approprié pour les cérémonies et grands événements. Il exprime la modestie plutôt que l’exagération."
+  },
+  {
+    "id": "costume-de-noble",
+    "name": "Costume de noble",
+    "price": 25,
+    "weight": 4,
+    "description": "Un costume exubérant tissé de lin, de soie et de velours, composé de chapeau et arborant de nombreuses broderies. Il correspond généralement à une robe pour les femmes, et à un pantalon et une chemise aux manches gonflées pour les hommes. Les nobles s’en vêtissent pour les cérémonies et événements importants."
+  },
+  {
+    "id": "robe-liturgique",
+    "name": "Robe liturgique",
+    "price": 2.5,
+    "weight": 2,
+    "description": "Une robe appropriée pour les cérémonies et événements religieux. Elle est réservée aux membres d’un clergé. On peut la porter pour indiquer qu’on est membre d’un clergé."
+  }
+]

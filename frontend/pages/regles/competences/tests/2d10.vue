@@ -74,8 +74,8 @@
       </li>
       <li>Sinon, ajoutez la valeur de l’<NuxtLink to="/regles/attributs">attribut</NuxtLink> associé au test.</li>
       <li>
-        Ajoutez le rang de la <NuxtLink to="/regles/competences">compétence</NuxtLink> associée au test si votre personnage est formé pour cette compétence, ou
-        seulement la moitié du rang sinon.
+        Ajoutez le <NuxtLink to="/regles/competences/rang">rang</NuxtLink> de la <NuxtLink to="/regles/competences">compétence</NuxtLink> associée au test si
+        votre personnage est <NuxtLink to="/regles/competences/formation">formé</NuxtLink> pour cette compétence, ou seulement la moitié du rang sinon.
       </li>
       <li>Ajoutez les bonus et pénalités situationnels (s’il y a lieu).</li>
       <li>
