@@ -9,7 +9,7 @@ export default defineI18nConfig(() => ({
       capacity: {
         style: "decimal",
         minimumFractionDigits: 0,
-        maximumFractionDigits: 0,
+        maximumFractionDigits: 1,
       },
       defense: {
         style: "decimal",
@@ -30,6 +30,11 @@ export default defineI18nConfig(() => ({
         style: "decimal",
         minimumFractionDigits: 0,
         maximumFractionDigits: 0,
+      },
+      volume: {
+        style: "decimal",
+        minimumFractionDigits: 0,
+        maximumFractionDigits: 2,
       },
       weight: {
         style: "decimal",

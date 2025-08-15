@@ -1,127 +1,181 @@
 ﻿[
   {
-    "id": "bourse",
+    "id": "2417db4c-b8d7-44c9-a72f-b3681cc93d41",
+    "slug": "bourse",
     "name": "Bourse",
     "price": 0.5,
     "weight": 0.5,
+    "volume": null,
     "capacity": 2.5,
     "description": "Petit porte-monnaie en cuir maintenue fermée par une ficelle, elle peut contenir jusqu’à 500 pièces de monnaie."
   },
   {
-    "id": "bouteille",
+    "id": "6acafcd0-c154-4d3c-84ae-1aaa8904ce07",
+    "slug": "bouteille",
     "name": "Bouteille",
     "price": 2,
     "weight": 1,
-    "volume": "750 ml",
-    "capacity": 0,
+    "volume": {
+      "value": 750,
+      "unit": "ml"
+    },
+    "capacity": null,
     "description": "Une bouteille en verre dotée d’un bouchon de liège."
   },
   {
-    "id": "carafe",
+    "id": "bc5ed7b1-ad52-4367-adb8-2e885e067b16",
+    "slug": "carafe",
     "name": "Carafe",
     "price": 0.02,
     "weight": 2,
-    "volume": "4 litres",
-    "capacity": 0,
-    "description": "Un grand récipient de verre muni d’un goulot, d’une poignée et d’un bec verseur. "
+    "volume": {
+      "value": 4,
+      "unit": "L"
+    },
+    "capacity": null,
+    "description": "Un grand récipient de verre muni d’un goulot, d’une poignée et d’un bec verseur."
   },
   {
-    "id": "casserole",
+    "id": "cf27e8d5-96cb-4054-95f5-84d46f2dabaf",
+    "slug": "casserole",
     "name": "Casserole",
     "price": 2,
     "weight": 5,
-    "volume": "4 litres",
-    "capacity": 0,
+    "volume": {
+      "value": 4,
+      "unit": "L"
+    },
+    "capacity": null,
     "description": "Une casserole en fer et son couvercle pour faire bouillir l’eau et cuire la nourriture."
   },
   {
-    "id": "chope",
+    "id": "e4b86926-b9a9-4084-b68f-e05396e33b68",
+    "slug": "chope",
     "name": "Chope",
     "price": 0.02,
     "weight": 0.5,
-    "volume": "500 ml",
-    "capacity": 0,
+    "volume": {
+      "value": 500,
+      "unit": "ml"
+    },
+    "capacity": null,
     "description": "Une grande tasse à boire en métal munie d’une poignée."
   },
   {
-    "id": "coffre",
+    "id": "7d70b120-f961-4c5c-a9a7-fcb40c16df3c",
+    "slug": "coffre",
     "name": "Coffre",
     "price": 5,
     "weight": 12.5,
-    "volume": "0,3 m³",
+    "volume": {
+      "value": 0.3,
+      "unit": "m³"
+    },
     "capacity": 150,
     "description": "Un coffre portatif en bois ou en métal sur lequel on peut fixer un verrou."
   },
   {
-    "id": "fiole",
+    "id": "31fe081e-6dc0-4ffa-93e5-428b412e8750",
+    "slug": "fiole",
     "name": "Fiole",
     "price": 1,
     "weight": 0,
-    "volume": "120 ml",
-    "capacity": 0,
+    "volume": {
+      "value": 120,
+      "unit": "ml"
+    },
+    "capacity": null,
     "description": "Une petite fiole en verre dotée d’un petit bouchon de liège."
   },
   {
-    "id": "flasque",
+    "id": "12f0a7d0-6516-480a-be7c-59f7879b733b",
+    "slug": "flasque",
     "name": "Flasque",
     "price": 0.02,
     "weight": 0.5,
-    "volume": "500 ml",
-    "capacity": 0,
+    "volume": {
+      "value": 500,
+      "unit": "ml"
+    },
+    "capacity": null,
     "description": "Un contenant plat métallique dotée d’un bouchon métallique."
   },
   {
-    "id": "gourde",
+    "id": "faea85d2-8104-43b8-a9db-930b674d3750",
+    "slug": "gourde",
     "name": "Gourde",
     "price": 0.2,
     "weight": 2.5,
-    "volume": "2 litres",
-    "capacity": 0,
+    "volume": {
+      "value": 2,
+      "unit": "L"
+    },
+    "capacity": null,
     "description": "Une gourde en forme de poire en cuir dotée d’un bouchon de liège et de sangles."
   },
   {
-    "id": "panier",
+    "id": "7ed58213-ae73-4257-b492-21dc972bf715",
+    "slug": "panier",
     "name": "Panier",
     "price": 0.4,
     "weight": 1,
-    "volume": "0,06 m³",
+    "volume": {
+      "value": 0.06,
+      "unit": "m³"
+    },
     "capacity": 20,
     "description": "Un panier en osier tressé avec une poignée."
   },
   {
-    "id": "sac",
+    "id": "512ec2ca-9313-4572-9dca-77d4b3b378d3",
+    "slug": "sac",
     "name": "Sac",
     "price": 0.01,
     "weight": 0.2,
-    "volume": "0,03 m³",
+    "volume": {
+      "value": 0.03,
+      "unit": "m³"
+    },
     "capacity": 15,
     "description": "Un simple sac de toile, parfois doté d’une ficelle pour le maintenir fermé."
   },
   {
-    "id": "sac-a-dos",
+    "id": "870e784a-7836-45c9-82d8-9d9de8fc2771",
+    "slug": "sac-a-dos",
     "name": "Sac à dos",
     "price": 2,
     "weight": 2.5,
-    "volume": "0,03 m³",
+    "volume": {
+      "value": 0.03,
+      "unit": "m³"
+    },
     "capacity": 15,
     "description": "Un sac de cuir muni de sangles porté sur le dos. Il est muni de plusieurs pochettes et on peut y attacher divers articles, tel un sac de couchage ou une corde."
   },
   {
-    "id": "seau",
+    "id": "3efb35dc-3de5-4816-80cd-501a3c887d6e",
+    "slug": "seau",
     "name": "Seau",
     "price": 0.05,
     "weight": 1,
-    "volume": "12 litres",
-    "capacity": 0,
+    "volume": {
+      "value": 12,
+      "unit": "L"
+    },
+    "capacity": null,
     "description": "Un seau formé de lattes de bois maintenues par des cerceaux métalliques et d’une poignée."
   },
   {
-    "id": "tonneau",
+    "id": "db670f55-49a4-4655-b5e3-4e325430db2c",
+    "slug": "tonneau",
     "name": "Tonneau",
     "price": 2,
     "weight": 35,
-    "volume": "160 litres",
-    "capacity": 0,
+    "volume": {
+      "value": 160,
+      "unit": "L"
+    },
+    "capacity": null,
     "description": "Un tonneau formé de lattes de bois maintenues par des cerceaux métalliques."
   }
 ]

@@ -10,7 +10,7 @@ internal class Program
     Startup startup = new(configuration);
     startup.ConfigureServices(builder.Services);
 
-    Directory.CreateDirectory("data\\output");
+    Directory.CreateDirectory("data\\output\\items");
 
     IHost host = builder.Build();
     host.Run();

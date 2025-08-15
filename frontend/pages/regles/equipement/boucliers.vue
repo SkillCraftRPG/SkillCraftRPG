@@ -130,10 +130,10 @@
 <script setup lang="ts">
 import { arrayUtils } from "logitar-js";
 
-import shields from "~/assets/data/items/shields.json";
 import type { Breadcrumb } from "~/types/components";
 import type { Shield } from "~/types/items";
 import type { Talent } from "~/types/game";
+import { getShields } from "~/services/items";
 import { getTalents } from "~/services/talents";
 
 const parent: Breadcrumb[] = [{ text: "Équipement", to: "/regles/equipement" }];
@@ -142,23 +142,37 @@ const slugsFormation: Set<string> = new Set(["melee", "formation-martiale", "cui
 const title: string = "Boucliers";
 const { orderBy } = arrayUtils;
 
-const heavy = computed<Shield[]>(() => shields.filter(({ category }) => category === "Heavy"));
-const light = computed<Shield[]>(() => shields.filter(({ category }) => category === "Light"));
-const medium = computed<Shield[]>(() => shields.filter(({ category }) => category === "Medium"));
+const shields = ref<Shield[]>(getShields());
+const talents = ref<Talent[]>(getTalents({ requiredTalent: true, skill: true }));
+
+const heavy = computed<Shield[]>(() =>
+  orderBy(
+    shields.value.filter(({ category }) => category === "Heavy"),
+    "slug",
+  ),
+);
+const light = computed<Shield[]>(() =>
+  orderBy(
+    shields.value.filter(({ category }) => category === "Light"),
+    "slug",
+  ),
+);
+const medium = computed<Shield[]>(() =>
+  orderBy(
+    getShields().filter(({ category }) => category === "Medium"),
+    "slug",
+  ),
+);
 
 const talentsCapacity = computed<Talent[]>(() =>
   orderBy(
-    getTalents({ requiredTalent: true, skill: true })
-      .filter(({ slug }) => slugsCapacity.has(slug))
-      .map((talent) => ({ ...talent, sort: [talent.tier, talent.slug].join("_") })),
+    talents.value.filter(({ slug }) => slugsCapacity.has(slug)).map((talent) => ({ ...talent, sort: [talent.tier, talent.slug].join("_") })),
     "sort",
   ),
 );
 const talentsFormation = computed<Talent[]>(() =>
   orderBy(
-    getTalents({ requiredTalent: true, skill: true })
-      .filter(({ slug }) => slugsFormation.has(slug))
-      .map((talent) => ({ ...talent, sort: [talent.tier, talent.slug].join("_") })),
+    talents.value.filter(({ slug }) => slugsFormation.has(slug)).map((talent) => ({ ...talent, sort: [talent.tier, talent.slug].join("_") })),
     "sort",
   ),
 );

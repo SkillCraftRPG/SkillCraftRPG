@@ -16,9 +16,12 @@
           <td>{{ shield.name }}</td>
           <td>{{ $n(shield.price, "price") }}</td>
           <td>{{ $n(shield.weight, "weight") }}</td>
-          <td>{{ $n(shield.defense, "defense") }}</td>
+          <td>
+            {{ $n(shield.defense.standard, "defense") }}
+            <template v-if="shield.defense.raised"> ou {{ $n(shield.defense.raised, "defense") }} (levé) </template>
+          </td>
           <td>{{ $n(shield.resistance, "resistance") }}</td>
-          <td>{{ shield.properties.length ? shield.properties.join(", ") : "—" }}</td>
+          <td v-html="formatProperties(shield)"></td>
         </tr>
       </tbody>
     </table>
@@ -37,4 +40,22 @@ import type { Shield } from "~/types/items";
 defineProps<{
   items: Shield[];
 }>();
+
+function formatProperties(shield: Shield): string {
+  const properties: string[] = [];
+  shield.properties.forEach((property) => {
+    switch (property) {
+      case "Bulwark":
+        properties.push("Rempart");
+        break;
+      case "Noisy":
+        properties.push("Bruyant");
+        break;
+    }
+  });
+  if (!properties.length) {
+    return `<span class="text-muted">—</span>`;
+  }
+  return properties.sort((a, b) => (a > b ? 1 : a < b ? -1 : 0)).join(", ");
+}
 </script>

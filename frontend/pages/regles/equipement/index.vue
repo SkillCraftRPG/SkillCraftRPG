@@ -62,14 +62,26 @@ const items: MenuItem[] = [
     title: "Boucliers",
     description: "Catégories, propriétés, talents et particularités des boucliers.",
   },
+  {
+    path: "/regles/equipement/general",
+    title: "Équipement général",
+    description: "Articles généraux, conteneurs et vêtements.",
+  },
+  {
+    path: "/regles/equipement/outils",
+    title: "Outils et trousses",
+    description: "Outils d’artisan, trousses, ensembles à jouer et instruments de musique.",
+  },
+  {
+    path: "/regles/equipement/marchandise",
+    title: "Marchandise",
+    description: "Bétail, épices, nourriture, métaux et textiles.",
+  },
 ];
 
 /* TODO(fpion):
  * Défense
  * Résistance
- * Équipement général : Articles, Contenants, Vêtements
- * Marchandise : Bétail, Épices, Métaux, Nourriture, Repas, Textiles
- * Outils : Artisanat et trousses, Ensembles à jouer, Instruments de musique
  * Montures et véhicules : Bêtes, Accessoires, Véhicules, Navires
  * Services : Gîte et couvert, Professionnels, Occultes, Artisans et Marchands, Passage en navire
  */

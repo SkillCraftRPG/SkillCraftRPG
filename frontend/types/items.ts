@@ -1,31 +1,44 @@
+import type { DamageType } from "./game";
+
 export type Ammunition = Item & {
-  weapon: string;
+  weapons: string;
   container: Container;
 };
 
 export type Armor = Item & {
-  category: string;
+  category: ArmorCategory;
   defense: number;
   resistance: number;
-  properties: string[];
+  properties: ArmorProperty[];
 };
 
+export type ArmorCategory = "Light" | "Medium" | "Heavy";
+
+export type ArmorProperty = "Bulwark" | "Comfortable" | "Firm" | "Hybrid" | "Noisy" | "Quilted";
+
 export type Container = Item & {
-  volume?: string;
-  capacity: number;
+  volume?: ContainerVolume;
+  capacity?: number | null;
 };
+
+export type ContainerVolume = {
+  value: number;
+  unit: string;
+};
+
+export type Goods = Item & {
+  category: GoodsCategory;
+};
+
+export type GoodsCategory = "Cattle" | "Food" | "Metal" | "Spice" | "Textile";
 
 export type Item = {
   id: string;
+  slug: string;
   name: string;
   price: number;
   weight: number;
   description: string;
-};
-
-export type Range = {
-  normal: number;
-  long: number;
 };
 
 export type SelectionItem = Item & {
@@ -34,19 +47,45 @@ export type SelectionItem = Item & {
 
 export type Shield = Item & {
   category: string;
-  defense: number;
+  defense: ShieldDefense;
   resistance: number;
-  properties: string[];
+  properties: ShieldProperty[];
 };
 
+export type ShieldDefense = {
+  standard: number;
+  raised?: number | null;
+};
+
+export type ShieldProperty = "Bulwark" | "Noisy";
+
+export type Tool = Item & {
+  category: ToolCategory;
+};
+
+export type ToolCategory = "Crafting" | "PlayingSet" | "MusicalInstrument";
+
 export type Weapon = Item & {
-  category: string;
-  range: string;
-  damage?: string;
-  properties: string[];
-  ammunition?: Range;
-  reload?: number;
-  special?: string;
-  thrown?: Range;
-  versatile?: string;
+  category: WeaponCategory;
+  damage?: WeaponDamage | null;
+  ammunition?: WeaponRange | null;
+  reload?: number | null;
+  special?: string | null;
+  thrown?: WeaponRange | null;
+  properties: WeaponProperty[];
+};
+
+export type WeaponCategory = "Simple" | "Martial";
+
+export type WeaponDamage = {
+  roll: string;
+  versatile?: string | null;
+  type: DamageType;
+};
+
+export type WeaponProperty = "Heavy" | "Finesse" | "Light" | "Loading" | "Reach" | "TwoHanded";
+
+export type WeaponRange = {
+  standard: number;
+  long: number;
 };

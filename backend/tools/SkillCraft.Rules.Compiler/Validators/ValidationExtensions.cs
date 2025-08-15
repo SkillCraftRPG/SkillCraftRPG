@@ -4,6 +4,11 @@ namespace SkillCraft.Rules.Compiler.Validators;
 
 internal static class ValidationExtensions
 {
+  public static IRuleBuilderOptions<T, int> Defense<T>(this IRuleBuilder<T, int> ruleBuilder)
+  {
+    return ruleBuilder.GreaterThan(0);
+  }
+
   public static IRuleBuilderOptions<T, string> Description<T>(this IRuleBuilder<T, string> ruleBuilder)
   {
     return ruleBuilder.NotEmpty();
@@ -12,6 +17,11 @@ internal static class ValidationExtensions
   public static IRuleBuilderOptions<T, string> Name<T>(this IRuleBuilder<T, string> ruleBuilder)
   {
     return ruleBuilder.NotEmpty().MaximumLength(40);
+  }
+
+  public static IRuleBuilderOptions<T, int> Resistance<T>(this IRuleBuilder<T, int> ruleBuilder)
+  {
+    return ruleBuilder.GreaterThan(0);
   }
 
   public static IRuleBuilderOptions<T, string> Roll<T>(this IRuleBuilder<T, string> ruleBuilder)

@@ -1,0 +1,4 @@
+﻿id,category,slug,name,price,weight,defense,defense_raised,resistance,properties,description
+df3cc1c8-af32-409b-a08e-6d2c95e3e201,Light,targe,Targe,10,2,1,,5,,"Petit bouclier métallique d’au-plus 40 centimètres de diamètre se tenant à la main, principalement utilisé au combat rapproché."
+322b663f-8899-492f-bf91-12cbd313153c,Medium,ecu,Écu,25,4,2,,10,,"Le bouclier le plus couramment utilisé, portant généralement un blason, soit les armoiries de son porteur. Il est de forme rectangulaire pour les fantassins, ou de forme ogivale pour les cavaliers."
+2b297d97-e7bc-4896-ad67-608cdd8f915a,Heavy,pavois,Pavois,400,8,2,4,20,"Bulwark,Noisy",Grand bouclier conçu à l’origine afin de protéger les arbalétriers. Il couvre tout le corps de son porteur et peut se fixer au sol au moyen d’un pieu afin de servir de demi-abri.

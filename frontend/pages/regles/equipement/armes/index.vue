@@ -21,13 +21,15 @@
 </template>
 
 <script setup lang="ts">
-import ammunition from "~/assets/data/items/ammunition.json";
-import weapons from "~/assets/data/items/weapons.json";
+import { arrayUtils } from "logitar-js";
+
 import type { Breadcrumb } from "~/types/components";
-import type { Weapon } from "~/types/items";
+import type { Ammunition, Weapon } from "~/types/items";
+import { getAmmunition, getWeapons } from "~/services/items";
 
 const parent: Breadcrumb[] = [{ text: "Équipement", to: "/regles/equipement" }];
 const title: string = "Armes";
+const { orderBy } = arrayUtils;
 
 type MenuItem = {
   path: string;
@@ -70,8 +72,21 @@ const items: MenuItem[] = [
   // TODO(fpion): Armes brisées
 ];
 
-const simple = computed<Weapon[]>(() => weapons.filter(({ category }) => category === "Simple"));
-const martial = computed<Weapon[]>(() => weapons.filter(({ category }) => category === "Martiale"));
+const ammunition = ref<Ammunition[]>(orderBy(getAmmunition(), "slug"));
+const weapons = ref<Weapon[]>(getWeapons());
+
+const simple = ref<Weapon[]>(
+  orderBy(
+    weapons.value.filter(({ category }) => category === "Simple"),
+    "slug",
+  ),
+);
+const martial = ref<Weapon[]>(
+  orderBy(
+    weapons.value.filter(({ category }) => category === "Martial"),
+    "slug",
+  ),
+);
 
 function scrollToTop(): void {
   window.history.replaceState(window.history.state, "", window.location.pathname + window.location.search);

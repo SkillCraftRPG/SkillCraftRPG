@@ -1,66 +1,74 @@
 [
   {
-    "id": "aiguille",
+    "id": "1d1644c6-21ae-459d-95bc-a0df641d01d1",
+    "slug": "aiguille",
     "name": "Aiguille",
-    "description": "Une fine aiguille en métal soufflée dans une sarbacane. Les aiguilles se rangent dans un petit étui en cuir protégeant le personnage des pointes.",
     "price": 0.02,
     "weight": 0.01,
-    "weapon": "Sarbacane",
+    "weapons": "Sarbacane",
+    "description": "Une fine aiguille en métal soufflée dans une sarbacane.",
     "container": {
-      "id": "etui-a-aiguilles",
+      "id": "c52e2af7-c6b4-43c2-83f2-f967267d76b1",
+      "slug": "etui-a-aiguilles",
       "name": "Étui à aiguilles",
-      "description": "",
-      "price": 0.5,
-      "weight": 0.5,
-      "capacity": 50
+      "price": 0.05,
+      "weight": 0.05,
+      "capacity": 50,
+      "description": "Un petit étui en cuir pour ranger des aiguilles, protégeant le personnage de la pointe de celles-ci."
     }
   },
   {
-    "id": "carreau",
+    "id": "4ba71a3a-03e6-4930-964b-3c97bfe63e2b",
+    "slug": "carreau",
     "name": "Carreau",
-    "description": "Similaire à une flèche, mais plus court, il possède un fer plus fort et pesant, mais n’est doté que de deux pennes au lieu de trois. Celles-ci sont en cuir ou en parchemin. Son étui est en cuir et ressemble fortement à un carquois plus court, mais fermé.",
     "price": 0.05,
     "weight": 0.03,
-    "weapon": "Arbalètes",
+    "weapons": "Arbalètes",
+    "description": "Similaire à une flèche, mais plus court, il possède un fer plus fort et pesant, mais n’est doté que de deux pennes au lieu de trois. Celles-ci sont en cuir ou en parchemin.",
     "container": {
-      "id": "etui-a-carreaux",
+      "id": "c52e2af7-c6b4-43c2-83f2-f967267d76b1",
+      "slug": "etui-a-carreaux",
       "name": "Étui à carreaux",
-      "description": "",
       "price": 1,
       "weight": 0.5,
-      "capacity": 20
+      "capacity": 20,
+      "description": "Un étui est en cuir ressemblant fortement à un carquois plus court, mais fermé, pouvant ranger des carreaux."
     }
   },
   {
-    "id": "fleche",
+    "id": "84d7ddba-8b3a-4c18-83b3-cdde17c18913",
+    "slug": "fleche",
     "name": "Flèche",
-    "description": "Le projectile par excellence pour les archers. Il est doté d’un fer pointu, d’une tige de bois et de trois pennes réalisées à l’aide de plumes. Le carquois est un étui cylindrique en cuir pouvant contenir des flèches donc une des extrémités est ouverte.",
     "price": 0.05,
     "weight": 0.02,
-    "weapon": "Arcs",
+    "weapons": "Arcs",
+    "description": "Le projectile par excellence pour les archers. Il est doté d’un fer pointu, d’une tige de bois et de trois pennes réalisées à l’aide de plumes.",
     "container": {
-      "id": "carquois",
+      "id": "87541ba3-4ee7-44ae-a077-f45aaf22f40b",
+      "slug": "carquois",
       "name": "Carquois",
-      "description": "",
       "price": 1,
       "weight": 0.5,
-      "capacity": 20
+      "capacity": 20,
+      "description": "Le carquois est un étui cylindrique en cuir pouvant contenir des flèches donc une des extrémités est ouverte."
     }
   },
   {
-    "id": "plomb",
+    "id": "89c55cda-3112-4586-8ca8-d27bf9080739",
+    "slug": "plomb",
     "name": "Plomb",
-    "description": "Similaire à un caillou, il s’agit d’une petit boule grossière faite en plomb. Les plombs sont rangés dans un sac de tissu.",
     "price": 0.01,
     "weight": 0.03,
-    "weapon": "Fronde",
+    "weapons": "Fronde",
+    "description": "Une fine aiguille en métal soufflée dans une sarbacane.",
     "container": {
-      "id": "sac-a-plombs",
+      "id": "50888527-b9da-4ae9-b5b6-e00827e57e74",
+      "slug": "sac-a-plombs",
       "name": "Sac à plombs",
-      "description": "",
       "price": 0.2,
       "weight": 0.2,
-      "capacity": 20
+      "capacity": 20,
+      "description": "Un sac de tissu dans lequel sont rangés les plombs."
     }
   }
 ]

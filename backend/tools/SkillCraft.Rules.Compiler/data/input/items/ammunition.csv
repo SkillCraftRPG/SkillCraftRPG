@@ -1,0 +1,9 @@
+﻿id,contained_ammunition,slug,name,price,weight,weapons,description
+1d1644c6-21ae-459d-95bc-a0df641d01d1,,aiguille,Aiguille,0.02,0.01,Sarbacane,Une fine aiguille en métal soufflée dans une sarbacane.
+4ba71a3a-03e6-4930-964b-3c97bfe63e2b,,carreau,Carreau,0.05,0.03,Arbalètes,"Similaire à une flèche, mais plus court, il possède un fer plus fort et pesant, mais n’est doté que de deux pennes au lieu de trois. Celles-ci sont en cuir ou en parchemin."
+84d7ddba-8b3a-4c18-83b3-cdde17c18913,,fleche,Flèche,0.05,0.02,Arcs,"Le projectile par excellence pour les archers. Il est doté d’un fer pointu, d’une tige de bois et de trois pennes réalisées à l’aide de plumes."
+89c55cda-3112-4586-8ca8-d27bf9080739,,plomb,Plomb,0.01,0.03,Fronde,"Similaire à un caillou, il s’agit d’une petit boule grossière faite en plomb."
+c52e2af7-c6b4-43c2-83f2-f967267d76b1,aiguille,etui-a-aiguilles,Étui à aiguilles,0.5,0.5,,"Un petit étui en cuir pour ranger des aiguilles, protégeant le personnage de la pointe de celles-ci."
+9ef57408-8997-4273-afdc-b41be8bb5a11,carreau,etui-a-carreaux,Étui à carreaux,1,0.5,,"Un étui est en cuir ressemblant fortement à un carquois plus court, mais fermé, pouvant ranger des carreaux."
+87541ba3-4ee7-44ae-a077-f45aaf22f40b,fleche,carquois,Carquois,1,0.5,,Le carquois est un étui cylindrique en cuir pouvant contenir des flèches donc une des extrémités est ouverte.
+50888527-b9da-4ae9-b5b6-e00827e57e74,plomb,sac-a-plombs,Sac à plombs,0.2,0.2,,Un sac de tissu dans lequel sont rangés les plombs.

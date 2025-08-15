@@ -1,35 +1,47 @@
 [
   {
-    "id": "targe",
+    "id": "df3cc1c8-af32-409b-a08e-6d2c95e3e201",
     "category": "Light",
+    "slug": "targe",
     "name": "Targe",
     "price": 10,
     "weight": 2,
-    "defense": 1,
+    "defense": {
+      "standard": 1,
+      "raised": null
+    },
     "resistance": 5,
     "properties": [],
     "description": "Petit bouclier métallique d’au-plus 40 centimètres de diamètre se tenant à la main, principalement utilisé au combat rapproché."
   },
   {
-    "id": "ecu",
+    "id": "322b663f-8899-492f-bf91-12cbd313153c",
     "category": "Medium",
+    "slug": "ecu",
     "name": "Écu",
     "price": 25,
     "weight": 4,
-    "defense": 2,
+    "defense": {
+      "standard": 2,
+      "raised": null
+    },
     "resistance": 10,
     "properties": [],
     "description": "Le bouclier le plus couramment utilisé, portant généralement un blason, soit les armoiries de son porteur. Il est de forme rectangulaire pour les fantassins, ou de forme ogivale pour les cavaliers."
   },
   {
-    "id": "pavois",
+    "id": "2b297d97-e7bc-4896-ad67-608cdd8f915a",
     "category": "Heavy",
+    "slug": "pavois",
     "name": "Pavois",
     "price": 400,
     "weight": 8,
-    "defense": 2,
+    "defense": {
+      "standard": 2,
+      "raised": 4
+    },
     "resistance": 20,
-    "properties": ["Bruyant", "Rempart"],
-    "description": "Grand bouclier conçu à l’origine afin de protéger les arbalétriers. Il couvre tout le corps de son porteur et peut se fixer au sol au moyen d’un pieu afin de servir de demi-abri. Il confère 2 points de Défense supplémentaires lorsqu’il est levé."
+    "properties": ["Bulwark", "Noisy"],
+    "description": "Grand bouclier conçu à l’origine afin de protéger les arbalétriers. Il couvre tout le corps de son porteur et peut se fixer au sol au moyen d’un pieu afin de servir de demi-abri."
   }
 ]

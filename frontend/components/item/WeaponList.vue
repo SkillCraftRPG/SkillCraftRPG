@@ -12,37 +12,19 @@
         </tr>
       </thead>
       <tbody>
-        <tr v-if="melee.length && ranged.length">
-          <td colspan="6">
-            <i>Armes de mêlée</i>
-          </td>
-        </tr>
-        <tr v-for="weapon in melee" :key="weapon.id">
+        <tr v-for="weapon in items" :key="weapon.id">
           <td>{{ weapon.name }}</td>
           <td>{{ $n(weapon.price, "price") }}</td>
           <td>{{ $n(weapon.weight, "weight") }}</td>
           <td>{{ formatAttack(weapon) }}</td>
-          <td>{{ weapon.damage ?? "—" }}</td>
-          <td>{{ formatProperties(weapon) }}</td>
-        </tr>
-        <tr v-if="melee.length && ranged.length">
-          <td colspan="6">
-            <i>Armes à distance</i>
-          </td>
-        </tr>
-        <tr v-for="weapon in ranged" :key="weapon.id">
-          <td>{{ weapon.name }}</td>
-          <td>{{ $n(weapon.price, "price") }}</td>
-          <td>{{ $n(weapon.weight, "weight") }}</td>
-          <td>{{ formatAttack(weapon) }}</td>
-          <td>{{ weapon.damage ?? "—" }}</td>
-          <td>{{ formatProperties(weapon) }}</td>
+          <td v-html="formatDamage(weapon)"></td>
+          <td v-html="formatProperties(weapon)"></td>
         </tr>
       </tbody>
     </table>
     <h4 class="h6">Descriptions</h4>
     <ul>
-      <li v-for="weapon in weapons" :key="weapon.id">
+      <li v-for="weapon in items" :key="weapon.id">
         <strong>{{ weapon.name }}.</strong> {{ weapon.description }}
         <ul v-if="weapon.special">
           <li>
@@ -55,38 +37,22 @@
 </template>
 
 <script setup lang="ts">
-import { arrayUtils, stringUtils } from "logitar-js";
+import { stringUtils } from "logitar-js";
 
 import type { Weapon } from "~/types/items";
 
 const { isNullOrWhiteSpace, unaccent } = stringUtils;
-const { orderBy } = arrayUtils;
 
-const props = defineProps<{
+defineProps<{
   items: Weapon[];
 }>();
-
-const weapons = computed<Weapon[]>(() => orderBy(props.items, "id"));
-
-const melee = computed<Weapon[]>(() =>
-  orderBy(
-    props.items.filter(({ range }) => range === "Melee"),
-    "id",
-  ),
-);
-const ranged = computed<Weapon[]>(() =>
-  orderBy(
-    props.items.filter(({ range }) => range === "Ranged"),
-    "id",
-  ),
-);
 
 function formatAttack(weapon: Weapon): string {
   let attack: number = 2;
   const properties: string[] = weapon.properties.map((property) => unaccent(property.trim().toLowerCase()));
   if (properties.includes("legere")) {
     attack = 1;
-  } else if (!isNullOrWhiteSpace(weapon.versatile)) {
+  } else if (!isNullOrWhiteSpace(weapon.damage?.versatile ?? "")) {
     attack = 3;
   } else if (properties.includes("deux mains")) {
     attack = 4;
@@ -94,10 +60,47 @@ function formatAttack(weapon: Weapon): string {
   return $n(attack, "attack");
 }
 
+const damageTypes: Map<string, string> = new Map([
+  ["Bludgeoning", "Contondant"],
+  ["Piercing", "Perçant"],
+  ["Slashing", "Tranchant"],
+]);
+function formatDamage(weapon: Weapon): string {
+  if (weapon.damage) {
+    const type: string | undefined = damageTypes.get(weapon.damage.type);
+    if (type) {
+      return [weapon.damage.roll, type].join(" ").toLowerCase();
+    }
+  }
+  return `<span class="text-muted">—</span>`;
+}
+
 function formatProperties(weapon: Weapon): string {
-  const properties: string[] = [...weapon.properties];
+  const properties: string[] = [];
+  weapon.properties.forEach((property) => {
+    switch (property) {
+      case "Finesse":
+        properties.push("Finesse");
+        break;
+      case "Heavy":
+        properties.push("Lourde");
+        break;
+      case "Light":
+        properties.push("Légère");
+        break;
+      case "Loading":
+        properties.push("Chargement");
+        break;
+      case "Reach":
+        properties.push("Allonge");
+        break;
+      case "TwoHanded":
+        properties.push("Deux mains");
+        break;
+    }
+  });
   if (weapon.ammunition) {
-    properties.push(`Munition (${weapon.ammunition.normal}/${weapon.ammunition.long})`);
+    properties.push(`Munition (${weapon.ammunition.standard}/${weapon.ammunition.long})`);
   }
   if (weapon.reload && weapon.reload > 1) {
     properties.push(`Barillet (${weapon.reload})`);
@@ -106,13 +109,13 @@ function formatProperties(weapon: Weapon): string {
     properties.push("Spéciale");
   }
   if (weapon.thrown) {
-    properties.push(`Jet (${weapon.thrown.normal}/${weapon.thrown.long})`);
+    properties.push(`Jet (${weapon.thrown.standard}/${weapon.thrown.long})`);
   }
-  if (weapon.versatile) {
-    properties.push(`Versatile (${weapon.versatile})`);
+  if (weapon.damage?.versatile) {
+    properties.push(`Versatile (${weapon.damage.versatile})`);
   }
   if (!properties.length) {
-    return "—";
+    return `<span class="text-muted">—</span>`;
   }
   return properties.sort((a, b) => (a > b ? 1 : a < b ? -1 : 0)).join(", ");
 }

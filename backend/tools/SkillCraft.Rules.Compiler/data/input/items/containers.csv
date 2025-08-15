@@ -1,0 +1,15 @@
+﻿id,slug,name,price,weight,volume,volume_unit,capacity,description
+2417db4c-b8d7-44c9-a72f-b3681cc93d41,bourse,Bourse,0.5,0.5,,,2.5,"Petit porte-monnaie en cuir maintenue fermée par une ficelle, elle peut contenir jusqu’à 500 pièces de monnaie."
+6acafcd0-c154-4d3c-84ae-1aaa8904ce07,bouteille,Bouteille,2,1,750,ml,,Une bouteille en verre dotée d’un bouchon de liège.
+bc5ed7b1-ad52-4367-adb8-2e885e067b16,carafe,Carafe,0.02,2,4,L,,"Un grand récipient de verre muni d’un goulot, d’une poignée et d’un bec verseur. "
+cf27e8d5-96cb-4054-95f5-84d46f2dabaf,casserole,Casserole,2,5,4,L,,Une casserole en fer et son couvercle pour faire bouillir l’eau et cuire la nourriture.
+e4b86926-b9a9-4084-b68f-e05396e33b68,chope,Chope,0.02,0.5,500,ml,,Une grande tasse à boire en métal munie d’une poignée.
+7d70b120-f961-4c5c-a9a7-fcb40c16df3c,coffre,Coffre,5,12.5,0.3,m³,150,Un coffre portatif en bois ou en métal sur lequel on peut fixer un verrou.
+31fe081e-6dc0-4ffa-93e5-428b412e8750,fiole,Fiole,1,0,120,ml,,Une petite fiole en verre dotée d’un petit bouchon de liège.
+12f0a7d0-6516-480a-be7c-59f7879b733b,flasque,Flasque,0.02,0.5,500,ml,,Un contenant plat métallique dotée d’un bouchon métallique.
+faea85d2-8104-43b8-a9db-930b674d3750,gourde,Gourde,0.2,2.5,2,L,,Une gourde en forme de poire en cuir dotée d’un bouchon de liège et de sangles.
+7ed58213-ae73-4257-b492-21dc972bf715,panier,Panier,0.4,1,0.06,m³,20,Un panier en osier tressé avec une poignée.
+512ec2ca-9313-4572-9dca-77d4b3b378d3,sac,Sac,0.01,0.2,0.03,m³,15,"Un simple sac de toile, parfois doté d’une ficelle pour le maintenir fermé."
+870e784a-7836-45c9-82d8-9d9de8fc2771,sac-a-dos,Sac à dos,2,2.5,0.03,m³,15,"Un sac de cuir muni de sangles porté sur le dos. Il est muni de plusieurs pochettes et on peut y attacher divers articles, tel un sac de couchage ou une corde."
+3efb35dc-3de5-4816-80cd-501a3c887d6e,seau,Seau,0.05,1,12,L,,Un seau formé de lattes de bois maintenues par des cerceaux métalliques et d’une poignée.
+db670f55-49a4-4655-b5e3-4e325430db2c,tonneau,Tonneau,2,35,160,L,,Un tonneau formé de lattes de bois maintenues par des cerceaux métalliques.

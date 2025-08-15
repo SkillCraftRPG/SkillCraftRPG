@@ -20,6 +20,15 @@
     <None Remove="data\input\castes.csv" />
     <None Remove="data\input\customizations.csv" />
     <None Remove="data\input\educations.csv" />
+    <None Remove="data\input\items\ammunition.csv" />
+    <None Remove="data\input\items\armor.csv" />
+    <None Remove="data\input\items\clothing.csv" />
+    <None Remove="data\input\items\containers.csv" />
+    <None Remove="data\input\items\general.csv" />
+    <None Remove="data\input\items\goods.csv" />
+    <None Remove="data\input\items\shields.csv" />
+    <None Remove="data\input\items\tools.csv" />
+    <None Remove="data\input\items\weapons.csv" />
     <None Remove="data\input\skills.csv" />
     <None Remove="data\input\statistics.csv" />
     <None Remove="data\input\talents.csv" />
@@ -36,6 +45,33 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="data\input\educations.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\input\items\ammunition.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\input\items\armor.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\input\items\clothing.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\input\items\containers.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\input\items\general.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\input\items\goods.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\input\items\shields.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\input\items\tools.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\input\items\weapons.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="data\input\skills.csv">

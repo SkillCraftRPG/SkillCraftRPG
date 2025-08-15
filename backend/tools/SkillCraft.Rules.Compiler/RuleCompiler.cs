@@ -1,5 +1,6 @@
 ﻿using SkillCraft.Rules.Compiler.Commands;
 using SkillCraft.Rules.Compiler.Tasks;
+using SkillCraft.Rules.Compiler.Tasks.Items;
 
 namespace SkillCraft.Rules.Compiler;
 
@@ -41,6 +42,14 @@ public class RuleCompiler : BackgroundService
       await ExecuteAsync(new CompileCastes(), cancellationToken);
       await ExecuteAsync(new CompileEducations(), cancellationToken);
       await ExecuteAsync(new CompileTalents(), cancellationToken);
+
+      await ExecuteAsync(new CompileArmors(), cancellationToken);
+      await ExecuteAsync(new CompileWeapons(), cancellationToken);
+      await ExecuteAsync(new CompileGeneralItems(), cancellationToken);
+      await ExecuteAsync(new CompileContainers(), cancellationToken);
+      await ExecuteAsync(new CompileClothing(), cancellationToken);
+      await ExecuteAsync(new CompileGoods(), cancellationToken);
+      await ExecuteAsync(new CompileTools(), cancellationToken);
     }
     catch (Exception exception)
     {

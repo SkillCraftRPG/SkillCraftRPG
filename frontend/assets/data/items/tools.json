@@ -1,170 +1,398 @@
 ﻿[
   {
-    "id": "fournitures-d-alchimiste",
+    "id": "7b82f6b5-1db2-4a6b-b27f-3bac558df4fe",
+    "category": "Crafting",
+    "slug": "fournitures-d-alchimiste",
     "name": "Fournitures d’alchimiste",
     "price": 50,
     "weight": 4,
     "description": "Cet ensemble comprend le nécessaire afin d’effectuer des réactions chimiques, soit deux béchers en verre, un cadre de maintien métallique, une tige en verre, un mortier, un pilon et des petites pochettes de réactifs communs."
   },
   {
-    "id": "fournitures-de-brasseur",
+    "id": "f892e54f-1713-4de8-b85c-1e112b02f444",
+    "category": "Crafting",
+    "slug": "fournitures-de-brasseur",
     "name": "Fournitures de brasseur",
     "price": 20,
     "weight": 4,
     "description": "Cet ensemble comprend une grande cruche en verre, un siphon, quelques mètres de tube et différents houblons."
   },
   {
-    "id": "fournitures-de-peintre",
+    "id": "bb533c3d-c517-4be5-8644-ad7ee9b66fe4",
+    "category": "Crafting",
+    "slug": "fournitures-de-peintre",
     "name": "Fournitures de peintre",
     "price": 10,
     "weight": 2.5,
     "description": "Cet ensemble comprend un chevalet, des toiles, une palette, des brosses et pinceaux, et du charbon de bois."
   },
   {
-    "id": "outils-de-bricoleur",
+    "id": "ff32b591-6532-491c-a3a8-8d46a90851fa",
+    "category": "Crafting",
+    "slug": "outils-de-bricoleur",
     "name": "Outils de bricoleur",
     "price": 50,
     "weight": 5,
     "description": "Ces outils consistent en une variété d’outils manuels tels un petit marteau et des ciseaux, du fil de métal, des aiguilles, des retailles de tissu, une pierre à aiguiser et un petit pot de colle."
   },
   {
-    "id": "outils-de-calligraphe",
+    "id": "071386f7-7bf3-41c1-8cc1-f53f084c20f5",
+    "category": "Crafting",
+    "slug": "outils-de-calligraphe",
     "name": "Outils de calligraphe",
     "price": 10,
     "weight": 2.5,
     "description": "Ces outils comprennent plusieurs plumes à écrire de différent calibre, différentes qualités et couleurs d’encre et une douzaine de parchemins."
   },
   {
-    "id": "outils-de-cartographe",
+    "id": "575aaafe-ad46-4cd5-9800-dbfcd0707b97",
+    "category": "Crafting",
+    "slug": "outils-de-cartographe",
     "name": "Outils de cartographe",
     "price": 15,
     "weight": 3,
     "description": "Ces outils comprennent une plume à écrire, de l’encre, trois parchemins, un compas, une règle et un pied à coulisse."
   },
   {
-    "id": "outils-de-cordonnier",
+    "id": "73c93efa-fb81-491a-ae38-f6f00cd44bef",
+    "category": "Crafting",
+    "slug": "outils-de-cordonnier",
     "name": "Outils de cordonnier",
     "price": 5,
     "weight": 2.5,
     "description": "Ces outils comprennent un support à chaussures, un couteau, un poinçon, un marteau, un graveur, des retailles de cuir, du fil à coudre et du cordon."
   },
   {
-    "id": "outils-de-forgeron",
+    "id": "09360fc5-5f1f-4897-af57-421a06726cc9",
+    "category": "Crafting",
+    "slug": "outils-de-forgeron",
     "name": "Outils de forgeron",
     "price": 20,
     "weight": 4,
     "description": "Ces outils comprennent un ensemble de marteaux et de pinces, du charbon, des chiffons et de la pierre à aiguiser."
   },
   {
-    "id": "outils-de-joaillier",
+    "id": "19a6dd0e-09dc-477e-9a0c-df3c6a32164a",
+    "category": "Crafting",
+    "slug": "outils-de-joaillier",
     "name": "Outils de joaillier",
     "price": 25,
     "weight": 1,
     "description": "Ces outils comprennent un ensemble de petits marteaux et scies, des limes, des pinces et des pincettes."
   },
   {
-    "id": "outils-de-macon",
+    "id": "5c3e887b-633f-4af1-887e-7ef327b69e90",
+    "category": "Crafting",
+    "slug": "outils-de-macon",
     "name": "Outils de maçon",
     "price": 10,
     "weight": 4,
     "description": "Ces outils comprennent une truelle, un marteau, un ciseau à pierre, des brosses et une équerre."
   },
   {
-    "id": "outils-de-maroquinier",
+    "id": "82c0ca86-39c3-475a-bd03-3bf86e29a71d",
+    "category": "Crafting",
+    "slug": "outils-de-maroquinier",
     "name": "Outils de maroquinier",
     "price": 5,
     "weight": 2.5,
     "description": "Ces outils comprennent un couteau, un petit maillet, une déligneuse, un perforateur, du fil et des retailles de cuir."
   },
   {
-    "id": "outils-de-menuisier",
+    "id": "4c732d96-95db-46de-b599-5da62a86cb4d",
+    "category": "Crafting",
+    "slug": "outils-de-menuisier",
     "name": "Outils de menuisier",
     "price": 8,
     "weight": 3,
     "description": "Ces outils comprennent une scie, un marteau, des clous, une équerre, une règle, une herminette, des ciseaux à bois et un niveau."
   },
   {
-    "id": "outils-de-navigateur",
+    "id": "d03e78fe-6d73-4589-924f-5b78e5f4f380",
+    "category": "Crafting",
+    "slug": "outils-de-navigateur",
     "name": "Outils de navigateur",
     "price": 25,
     "weight": 1,
     "description": "Ces outils comprennent un sextant, une boussole, un pied à coulisse, une règle, trois parchemins, une plume à écrire et de l’encre."
   },
   {
-    "id": "outils-de-potier",
+    "id": "56f90527-5958-423b-b1e2-6cb0ca7c3d5e",
+    "category": "Crafting",
+    "slug": "outils-de-potier",
     "name": "Outils de potier",
     "price": 10,
     "weight": 1.5,
     "description": "Ces outils contiennent des aiguilles de potier, des nervures en bois, un pied à coulisse, des grattoirs et un couteau."
   },
   {
-    "id": "outils-de-sculpteur-sur-bois",
+    "id": "0a000b81-0d7a-407a-afeb-364c9bff3174",
+    "category": "Crafting",
+    "slug": "outils-de-sculpteur-sur-bois",
     "name": "Outils de sculpteur sur bois",
     "price": 1,
     "weight": 2.5,
     "description": "Ces outils comprennent un couteau, une petite scie et un ciseau à dégarnir."
   },
   {
-    "id": "outils-de-souffleur-de-verre",
+    "id": "4b007e30-2494-436c-838e-afff0a276660",
+    "category": "Crafting",
+    "slug": "outils-de-souffleur-de-verre",
     "name": "Outils de souffleur de verre",
     "price": 30,
     "weight": 2.5,
     "description": "Ces outils comprennent un chalumeau, un marbre, des blocs et des pincettes."
   },
   {
-    "id": "outils-de-tisserand",
+    "id": "ebec3e2d-8e68-45f9-a45a-269e9796a659",
+    "category": "Crafting",
+    "slug": "outils-de-tisserand",
     "name": "Outils de tisserand",
     "price": 1,
     "weight": 2.5,
     "description": "Ces outils comprennent du fil et des aiguilles à coudre, ainsi que des retailles de tissu. Le personnage sait manœuvrer un métier à tissu, mais cet outil est bien trop massif pour être trimballé."
   },
   {
-    "id": "outils-de-voleur",
+    "id": "278a46c6-e207-460d-a988-21730d16e653",
+    "category": "Crafting",
+    "slug": "outils-de-voleur",
     "name": "Outils de voleur",
     "price": 25,
     "weight": 0.5,
     "description": "Ces outils comprennent une petite lime, un jeu de crochetage, un petit miroir monté sur une tige métallique, une paire de ciseaux à lame étroite et des pinces."
   },
   {
-    "id": "trousse-de-deguisement",
+    "id": "48467058-8584-41e4-afc5-8abb67629fd4",
+    "category": "Crafting",
+    "slug": "trousse-de-deguisement",
     "name": "Trousse de déguisement",
     "price": 25,
     "weight": 1.5,
     "description": "Cette trousse contient du maquillage, de la teinture pour cheveux, de petits accessoires et quelques morceaux de vêtements."
   },
   {
-    "id": "trousse-de-falsification",
+    "id": "5dcaa536-e15b-4389-8359-04e688f45462",
+    "category": "Crafting",
+    "slug": "trousse-de-falsification",
     "name": "Trousse de falsification",
     "price": 15,
     "weight": 2.5,
     "description": "Cette trousse contient plusieurs plumes à écrire de différent calibre, différentes qualités et couleurs d’encre, une variété de papiers et parchemins, de la cire à cacheter, des sceaux, des feuilles d’argent et d’or très fines, et de petits outils pour sculpter la cire à cacheter afin d’imiter un sceau."
   },
   {
-    "id": "trousse-de-premiers-soins",
+    "id": "916244fd-d05a-40e8-9813-ec93b25271d2",
+    "category": "Crafting",
+    "slug": "trousse-de-premiers-soins",
     "name": "Trousse de premiers soins",
     "price": 5,
     "weight": 1.5,
     "description": "Cette trousse contient des bandages, des baumes, des attelles, des pincettes et un couteau de précision. Elle contient 10 charges. Lorsque toutes les charges sont utilisées, la trousse doit être remplacée au complet par mesures d’hygiène."
   },
   {
-    "id": "trousse-d-empoisonneur",
+    "id": "e1cd27ae-7048-44d1-8060-97c7969ac9a5",
+    "category": "Crafting",
+    "slug": "trousse-d-empoisonneur",
     "name": "Trousse d’empoisonneur",
     "price": 50,
     "weight": 1,
     "description": "Cette trousse contient des fioles en verre, un mortier et un pilon, une tige en verre et des réactifs communs."
   },
   {
-    "id": "trousse-d-herboristerie",
+    "id": "6f84c17a-e578-4861-8588-f08627f9f3be",
+    "category": "Crafting",
+    "slug": "trousse-d-herboristerie",
     "name": "Trousse d’herboristerie",
     "price": 5,
     "weight": 1.5,
     "description": "Cette trousse contient des sachets pour entreposer des herbes, un mortier et un pilon, des bocaux de verre, ainsi que de gants et des sécateurs permettant de collecter des herbes."
   },
   {
-    "id": "ustensiles-de-cuisinier",
+    "id": "6d23fcba-4c0d-499d-9442-12d1a42f61a6",
+    "category": "Crafting",
+    "slug": "ustensiles-de-cuisinier",
     "name": "Ustensiles de cuisinier",
     "price": 1,
     "weight": 4,
     "description": "Ces outils comprennent un chaudron, des couteaux, des fourchettes et des cuillères de différentes tailles et quantités, ainsi qu’une variété d’articles de cuisine communs telle une râpe, une louche et un fouet."
+  },
+  {
+    "id": "ecf2f834-0f0c-40f7-9441-559675353b0b",
+    "category": "PlayingSet",
+    "slug": "alquerque",
+    "name": "Alquerque",
+    "price": 1,
+    "weight": 0.2,
+    "description": "Un jeu de société se jouant sur une grille. Chaque joueur possède 12 galets colorés."
+  },
+  {
+    "id": "f1ff88bb-1104-45b7-9cd6-0eefd5e359ab",
+    "category": "PlayingSet",
+    "slug": "des",
+    "name": "Dés",
+    "price": 0.1,
+    "weight": 0,
+    "description": "Trois petits dés à six faces en métal, en bois ou en pierre gravée."
+  },
+  {
+    "id": "7c086e13-4ff8-46b8-832e-02eab67cef98",
+    "category": "PlayingSet",
+    "slug": "dominos",
+    "name": "Dominos",
+    "price": 10,
+    "weight": 0.1,
+    "description": "Un ensemble de 32 tuiles numérotées fabriquées à partir d’ossements. Son prix élevé est justifié par le fait qu’il est importé d’un lointain pays de l’Est."
+  },
+  {
+    "id": "dc63c289-89af-49af-a3e2-ca172dc92b4b",
+    "category": "PlayingSet",
+    "slug": "echecs",
+    "name": "Échecs",
+    "price": 2,
+    "weight": 0.5,
+    "description": "Un plateau grillé (échiquier) et deux ensembles de 16 pièces colorées aux couleurs de l’échiquier."
+  },
+  {
+    "id": "f08ad347-77e5-42c8-9d91-2d6ed7f327b0",
+    "category": "PlayingSet",
+    "slug": "jeu-du-moulin",
+    "name": "Jeu du moulin",
+    "price": 0.2,
+    "weight": 0.1,
+    "description": "Un plateau (tablier) formé de trois carrés imbriqués et deux ensembles de 9 galets colorés."
+  },
+  {
+    "id": "cdfaf7d7-5fa5-4587-91fd-5c6bc067fa35",
+    "category": "PlayingSet",
+    "slug": "marelle",
+    "name": "Marelle",
+    "price": 0.02,
+    "weight": 0,
+    "description": "Une craie et un palet coloré pour jouer sur un sol en pierre."
+  },
+  {
+    "id": "16f49132-b14b-45ca-bbed-7deb4fb10eb9",
+    "category": "PlayingSet",
+    "slug": "pailles",
+    "name": "Pailles",
+    "price": 0.05,
+    "weight": 0,
+    "description": "Un ensemble de pailles de millefeuille séché."
+  },
+  {
+    "id": "25d8a3ce-1926-4d84-baac-c1c128f915db",
+    "category": "PlayingSet",
+    "slug": "tabula",
+    "name": "Tabula",
+    "price": 1,
+    "weight": 0.2,
+    "description": "Un jeu de société se jouant sur un plateau. Il comprend deux ensembles de 15 galets colorés et 3 dés."
+  },
+  {
+    "id": "90b93d5e-e3b1-41c1-8da9-aab8650009f1",
+    "category": "PlayingSet",
+    "slug": "tarot",
+    "name": "Tarot",
+    "price": 1,
+    "weight": 0,
+    "description": "Ce jeu compte 58 cartes. Il est divisé en 4 enseignes comptant chacune 14 cartes (1 à 10, Valet, Cavalier, Dame et Roi). Il compte également deux cartes uniques\u00A0: Le Fou et Le Monde."
+  },
+  {
+    "id": "e6c94fd3-976c-4f92-88ea-9c0b38efc349",
+    "category": "PlayingSet",
+    "slug": "trois-galets-a-la-fois",
+    "name": "Trois galets à la fois",
+    "price": 0.1,
+    "weight": 0,
+    "description": "Un plateau composé d’une grille de 3 par 3 carrés, et deux ensembles de 3 galets colorés."
+  },
+  {
+    "id": "601b15bd-5a56-43de-9ba2-69ede87f7a8f",
+    "category": "MusicalInstrument",
+    "slug": "cornemuse",
+    "name": "Cornemuse",
+    "price": 30,
+    "weight": 3,
+    "description": "Instrument à vent constitué d’une poche, d’un hautbois à anche double, et d’un ou plusieurs bourdons."
+  },
+  {
+    "id": "8ac2e215-1118-46cc-8176-1a125ac7462b",
+    "category": "MusicalInstrument",
+    "slug": "chalemie",
+    "name": "Chalemie",
+    "price": 2,
+    "weight": 0.5,
+    "description": "Instrument à vent à anche double, dans la famille du hautbois, à perce conique."
+  },
+  {
+    "id": "46343d3f-11e1-42e2-83a3-7f0f5ee4a488",
+    "category": "MusicalInstrument",
+    "slug": "corne",
+    "name": "Corne",
+    "price": 3,
+    "weight": 1,
+    "description": "Instrument à vent constitué d’une corne d’animal percée et vidée, ou d’un tube en cuivre enroulé sur lui-même."
+  },
+  {
+    "id": "052f8394-8cd8-4c03-bfe5-2631c9e8ddd1",
+    "category": "MusicalInstrument",
+    "slug": "dulcimer",
+    "name": "Dulcimer",
+    "price": 25,
+    "weight": 5,
+    "description": "Instrument à cordes frappées par une paire de baguettes constitué d’une table en bois de forme trapézoïdale."
+  },
+  {
+    "id": "b0977d57-eee8-4358-9876-bda6e320c065",
+    "category": "MusicalInstrument",
+    "slug": "flute",
+    "name": "Flûte",
+    "price": 2,
+    "weight": 0.5,
+    "description": "Instrument à vent de forme tubulaire muni d’un biseau et de petits trous bouchés avec les doigts."
+  },
+  {
+    "id": "92922416-ad3f-4940-8a9a-b84f110b4a43",
+    "category": "MusicalInstrument",
+    "slug": "flute-de-pan",
+    "name": "Flûte de Pan",
+    "price": 12,
+    "weight": 1,
+    "description": "Instrument à vent composé de plusieurs petits tubes, très facile à fabriquer."
+  },
+  {
+    "id": "67f02df3-21a7-4fca-aa7c-c10ebbfae372",
+    "category": "MusicalInstrument",
+    "slug": "luth",
+    "name": "Luth",
+    "price": 35,
+    "weight": 1,
+    "description": "Instrument à cordes pincées fait presque entièrement de bois muni de plusieurs paires de cordes."
+  },
+  {
+    "id": "31138093-946d-44ab-8791-4f243f71db59",
+    "category": "MusicalInstrument",
+    "slug": "lyre",
+    "name": "Lyre",
+    "price": 30,
+    "weight": 1,
+    "description": "Instrument à cordées pincées similaire à une harpe de petite taille."
+  },
+  {
+    "id": "0294a245-a24e-4f20-8421-22804b78019d",
+    "category": "MusicalInstrument",
+    "slug": "tambour",
+    "name": "Tambour",
+    "price": 6,
+    "weight": 1.5,
+    "description": "Percussion constituée d’un fût sur lequel est tendue une peau frappée par les doigts ou des baguettes."
+  },
+  {
+    "id": "c9d8de71-5e11-45d8-9142-793989ac8270",
+    "category": "MusicalInstrument",
+    "slug": "viole",
+    "name": "Viole",
+    "price": 30,
+    "weight": 0.5,
+    "description": "Instrument à cordes frottées et à frette joué à l’aide d’un archet doté de six cordes en boyau."
   }
 ]

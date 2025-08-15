@@ -1,0 +1,28 @@
+﻿id,category,slug,name,price,weight,description
+b06840da-ee3e-45fc-bb35-53b557c3e85e,Cattle,boeuf,Bœuf,15,250,"Le bœuf est un animal de travail, plus fort et endurant que le cheval, mais il travaille moins rapidement. Il est particulièrement utile pour briser la tourbe et labourer les champs."
+51cd4aec-cec8-477c-bf59-8054a415c9b0,Cattle,bouc-chevre,Bouc ou chèvre,1,55,"La chèvre est un animal de ferme commun. Elle produit du lait qu’on peut raffiner en fromage, de la viande, et sa peau qui est tannée en cuir."
+acafe18d-3cf2-4f8e-a28a-7fbdd31d4ce3,Cattle,coq-poule,Coq ou poule,0.02,2.5,Un petit oiseau de ferme produisant des œufs et des plumes.
+65f7c822-7a41-4a35-8b7c-d659739645d0,Cattle,mouton-brebis,Mouton ou brebis,2,25,Un animal de ferme commun produisant beaucoup de laine pouvant être tissée.
+bc9c30bb-c8da-42e0-9650-42cee6136a56,Cattle,porc-truie,Porc ou truie,3,75,"Issu du sanglier sauvage, cet animal fut domestiqué pour sa viande et sa graisse."
+cff205dc-cdfa-49b7-b8e5-dff8f578acb5,Cattle,vache,Vache,10,200,"Ce grand bovidé a de nombreuses utilités : viande, lait et peau tannée en cuir."
+e97215e7-8783-4006-bd63-d6fa48b2865b,Spice,cannelle,Cannelle,4,1,"D’abord employée pour l’embaumement, son goût aromatique doux et chaud est aujourd’hui savouré."
+97f5faf7-cf43-4c91-ba83-3abca464bfb2,Spice,clou-de-girofle,Clou de girofle,6,1,"D’abord utilisé comme parfum et en médecine traditionnelle, il a un parfum d’œillet, une saveur piquante et amère, boisée et fruitée."
+2a37108d-6284-4a22-9f18-1462cb055be5,Spice,gingembre,Gingembre,2,1,"Il entre dans la composition de certaines boissons, de plusieurs pâtisseries et de certains remèdes."
+234b43ea-5c82-4a17-8838-d64104e16df8,Spice,poivre,Poivre,4,1,"Son goût est intense et incisif. Vu sa rareté, il peut être utilisé comme monnaie d’échange."
+af145641-f563-4ba2-a347-e6c7ec6716d8,Spice,safran,Safran,30,1,"Son goût amer est utilisé comme assaisonnement. Il donne également une coloration rougeâtre. On l’appelle « or rouge » vu sa valeur, car c’est l’épice la plus laborieuse à produire au monde."
+74bce06e-17e4-41af-aced-7e05696b5dd3,Spice,sel,Sel,0.1,1,"Une des plus vieilles épices, et des plus faciles à extraire. On l’utilise pour assaisonner et conserver la viande."
+382cbfa2-2d77-4cd5-ba0d-5c0f8763c2f8,Metal,argent,Argent,200,1,"Un métal fréquent et facile à extraire, utilisé comme étalon monétaire."
+d4dbc381-432a-4050-a984-52b4dc8f3f9b,Metal,cuivre,Cuivre,2,1,"Un des premiers métaux à avoir été utilisé se trouvant sous forme native, la base des anciens empires."
+3590c95f-9dc7-4a29-9b32-446a5d43e795,Metal,fer,Fer,0.4,1,"Le fer a révolutionné la métallurgie en remplaçant le bronze. Il peut être raffinés en fonte et en aciers extrêmement robustes, au prix d’une très haute température de fourneau."
+d428d6bc-4328-4a50-9e51-36f1eff03bc7,Metal,or,Or,20000,1,"Un des premiers métaux à avoir été utilisé par les anciens empires, sa rareté justifie sa valeur. Il est utilisé pour frapper des pièces de monnaie et comme décoration. Il n’est pas assez solide pour être utilisé à la guerre."
+551e56c2-ad70-4424-a534-2043ba8fb01e,Food,ble,Blé,0.02,1,"Une céréale très utilisée, notamment pour produire la farine."
+0349b7f5-11c9-469a-9f68-c84b6cb99018,Food,farine,Farine,0.04,1,"Obtenue en broyant les céréales de blé, cette poudre brune est la base du pain et des pâtisseries."
+b872086f-b452-4560-9e89-5f307fe463c9,Food,bloc-de-fromage,Bloc de fromage,0.2,1,"Aliment obtenu par coagulation du lait, il est disponible en une multitude de textures et saveurs."
+42a10354-16d0-4202-a75c-de49c14d6bcb,Food,miche-de-pain,Miche de pain,0.02,0.5,Une miche de pain composée d’une croûte craquante et d’une mie aux petites alvéoles.
+d83e3076-7a9f-41f1-a5d5-fd8c80d805ca,Food,repas-pour-monture-1-journee,Repas pour monture (1 journée),0.05,10,Du pâturage et du foin pour nourrir un cheval pendant une journée. Le prix peut grandement augmenter pour une monture exotique tel un éléphant. La nourriture est généralement incluse dans le service d’écuries. Cette nourriture ne peut être consommée par un aventurier.
+f4699b10-a11f-4b1b-9c2e-70cb90073653,Food,viande-rouge,Viande rouge,0.2,1,Une bonne quantité de viande crue prête à être cuisinée en plusieurs portions.
+2350d31a-7462-411f-bd6c-72dfcc607365,Textile,coton-tisse,Coton tissé (1 m²),0.6,"0,1","Le coton est moins onéreux que la laine, mais il doit être importé dans les régions au climat froid. Les vêtements produits à partir de coton sont plus jolis et confortables, mais moins chauds."
+b433bf02-7683-41b8-8f8c-7bb140f29871,Textile,laine-tissee,Laine tissée (1 m²),1.2,"0,1","Tissée à partir de la laine, ce textile produit des vêtements chauds et confortables."
+9d8d7b37-ba94-4102-9214-1f167f6a0e95,Textile,lin-tisse,Lin tissé (1 m²),6,"0,1",Le lin est une plante facile à cultiver dont le textile est utilisé depuis la nuit des temps. Il est plutôt vu comme une commodité. Les paysans préfèrent le vendre et porter des vêtements en coton ou en laine.
+5e8d8d46-e68f-4ae5-8873-94d17c95360b,Textile,soie-tissee,Soie tissée (1 m²),12,"0,1",La soie est un textile distingué réservé aux plus riches vu sa complexité de production.
+5dff3678-9dd6-46ce-acc7-9116db651781,Textile,toile,Toile (1 m²),0.12,"0,1","La toile est le textile le moins noble, utilisée pour produire des sacs et les toiles à peinture. Les plus pauvres s’en servent parfois pour produire des vêtements peu chics ni confortables."

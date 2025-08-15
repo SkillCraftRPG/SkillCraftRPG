@@ -59,6 +59,8 @@ export type Customization = {
 
 export type CustomizationKind = "Disability" | "Gift";
 
+export type DamageType = "Bludgeoning" | "Piercing" | "Slashing";
+
 export type Feature = {
   name: string;
   description?: string | null;
