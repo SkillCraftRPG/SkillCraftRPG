@@ -1148,7 +1148,7 @@
     "skillId": null,
     "requiredTalentId": "8eba57f8-a0f5-4e04-997f-6772bd4e5c24",
     "summary": "Confère +3 à l’Initiative et l’avantage aux tests d’Initiative du personnage.",
-    "description": "Confère un bonus permanent de +3 à l’Initiative du personnage.\n\nÉgalement, il se voit conférer l’avantage à ses tests d’Initiative.",
+    "description": "Confère un bonus permanent de +3 à l’Initiative du personnage.\n\nÉgalement, lorsqu’il effectue un test d’Initiative, il peut jeter 2d10 et conserver le résultat de son choix.",
     "notes": "\uD83D\uDD17"
   },
   {
@@ -1279,7 +1279,7 @@
     "allowMultiplePurchases": false,
     "skillId": null,
     "requiredTalentId": "8565f2e2-e94e-4215-95c4-d0d04f7924ed",
-    "summary": "Permet d’utiliser un pouvoir en attaque d’opportunité, confère l’avantage à la concentration, et d’exécuter une composante somatique sans main libre..",
+    "summary": "Permet d’utiliser un pouvoir en attaque d’opportunité, confère l’avantage à la concentration, et d’exécuter une composante somatique sans main libre.",
     "description": "Le personnage acquiert les capacités suivantes :\n\n- Il se voit conférer l’avantage à ses jets de sauvegarde de Discipline afin de maintenir sa concentration.\n- Lorsqu’une créature provoque une attaque d’opportunité de la part du personnage, alors celui-ci peut substituer l’attaque de mêlée par un pouvoir. Le pouvoir ne peut cibler plusieurs créatures et sa canalisation doit être de deux actions.\n- Il n’a pas besoin d’avoir une main libre afin de d’exécuter la composante somatique d’un pouvoir. Cela lui permet par exemple de canaliser un pouvoir ne nécessitant qu’une composante somatique, ou une composante somatique et verbale, tout en maniant une arme dans une main et en tenant un bouclier dans l’autre. Toutefois, il a encore besoin d’avoir une main de libre afin d’exécuter la composante matérielle ou focus d’un pouvoir.\n- Ses tests d’Occultisme ne sont pas affligés du désavantage lorsqu’il canalise un pouvoir en présence d’une créature hostile envers lui.",
     "notes": "\uD83D\uDD17"
   },
@@ -1424,7 +1424,7 @@
     "skillId": "81f62acc-1d5c-40cf-99fe-9399160ce26b",
     "requiredTalentId": "bcb723dd-f0ef-41c7-b40b-d8b4467c40a6",
     "summary": "Permet d’inspirer d’autres créatures à imiter une action et de tenter de charmer une cible après 10 minutes d’interaction verbale ou corporelle continue.",
-    "description": "Après avoir effectué une action, le personnage peut inspirer d’autres créatures à effectuer la même action.\n\nPar une action, il sélectionne un nombre de créatures inférieur ou égal à la moitié de son rang de Discipline situées à 9 mètres ou moins de sa position.\n\nJusqu’à la fin de son prochain tour, une créature ciblée se voit conférer l’avantage à ses tests si elle effectue la même action que le personnage.\n\nÉgalement, si le personnage interagit continuellement pendant 10 minutes avec une créature qui peut le comprendre, par le langage verbal ou corporel, il peut tenter de la charmer en dépensant 15 points d’Énergie.\n\nSi celle-ci échoue un jet de sauvegarde de Discipline ou d’Intuition opposé à un test de Diplomatie du personnage, elle est charmée par celui-ci pendant un nombre de minutes égal à la moitié de son rang de Diplomatie.\n\nL’effet prend fin si le personnage ou un de ses alliés commet une action hostile contre la cible ou contre une créature alliée de celle-ci.\n\nLa cible ne sait pas qu’elle a été charmée lorsque l’effet prend fin, mais elle est immunisée à cet effet pendant les 24 prochaines heures.",
+    "description": "Après avoir effectué une action, le personnage peut inspirer d’autres créatures à effectuer la même action.\n\nPar une action, il sélectionne un nombre de créatures inférieur ou égal à la moitié de son rang de Diplomatie situées à 9 mètres ou moins de sa position.\n\nJusqu’à la fin de son prochain tour, une créature ciblée se voit conférer l’avantage à ses tests si elle effectue la même action que le personnage.\n\nÉgalement, si le personnage interagit continuellement pendant 10 minutes avec une créature qui peut le comprendre, par le langage verbal ou corporel, il peut tenter de la charmer en dépensant 15 points d’Énergie.\n\nSi celle-ci échoue un jet de sauvegarde de Discipline ou d’Intuition opposé à un test de Diplomatie du personnage, elle est charmée par celui-ci pendant un nombre de minutes égal à la moitié de son rang de Diplomatie.\n\nL’effet prend fin si le personnage ou un de ses alliés commet une action hostile contre la cible ou contre une créature alliée de celle-ci.\n\nLa cible ne sait pas qu’elle a été charmée lorsque l’effet prend fin, mais elle est immunisée à cet effet pendant les 24 prochaines heures.",
     "notes": "\uD83D\uDD17"
   },
   {
@@ -1722,7 +1722,7 @@
     "name": "Provocation",
     "allowMultiplePurchases": false,
     "skillId": null,
-    "requiredTalentId": "919e303f-32d3-4eac-aa71-1192a075bf0d",
+    "requiredTalentId": "194f8473-6278-4c5b-9794-c55ef03c02d3",
     "summary": "Peut provoquer pour détourner les attaques, se battre avec style en utilisant Représentation et Stratagème, et aider un allié après un critique.",
     "description": "### Provocation\n\nPermet au personnage de provoquer des créatures situées à 9 mètres ou moins de sa position et qui peuvent le voir et l’entendre par une action.\n\nIl peut cibler un nombre de créatures inférieur ou égal à la moitié de son rang de Représentation (minimum 1).\n\nIl effectue un test de Représentation opposé à un test de Discipline ou d’Intuition de toute cible.\n\nEn cas d’échec, une créature se voit affligée du désavantage au test de ses attaques dirigées contre une créature autre que le personnage jusqu’au début du prochain tour de celui-ci.\n\nLes créatures immunisées aux charmes ne sont pas affectées par cette capacité.\n\n### Combat de scène\n\nLorsqu’il effectue une attaque en maniant une arme d’un type sélectionné avec le talent Distraction, il peut remplacer le test de Mêlée ou d’Orientation par un test de Représentation, et peut remplacer sa Force ou sa Précision par son Stratagème.\n\nÉgalement, lorsqu’il effectue un coup critique en maniant une arme d’un de ces types, il peut immédiatement après l’attaque aider une créature alliée située à 9 mètres ou moins de sa position.",
     "notes": "\uD83D\uDD17"

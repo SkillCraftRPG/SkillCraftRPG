@@ -1,0 +1,86 @@
+[
+  {
+    "id": "446db02a-baed-4c65-9a7c-855db902dac9",
+    "path": "/regles/combat/activites/agripper",
+    "name": "Agripper",
+    "actions": {
+      "mandatory": 1,
+      "optional": 0,
+      "reaction": false
+    },
+    "threatening": false,
+    "summary": "Agripper une cible pour l’immobiliser."
+  },
+  {
+    "id": "2ff3607b-867d-4c18-94a9-6e8ef13518db",
+    "path": "/regles/combat/activites/aider",
+    "name": "Aider",
+    "actions": {
+      "mandatory": 1,
+      "optional": 0,
+      "reaction": true
+    },
+    "threatening": "maybe",
+    "summary": "Aider à accomplir une action."
+  },
+  {
+    "id": "e26ae800-78ba-43aa-a3d9-b598ec19dfa2",
+    "path": "/regles/combat/attaque",
+    "name": "Attaquer",
+    "actions": {
+      "mandatory": 1,
+      "optional": 0,
+      "reaction": false
+    },
+    "threatening": "maybe",
+    "summary": "Tenter de blesser un cible."
+  },
+  {
+    "id": "c6798208-e3b5-48f9-a0e5-f32293c1eda0",
+    "path": "/regles/combat/activites/bousculer",
+    "name": "Bousculer",
+    "actions": {
+      "mandatory": 1,
+      "optional": 0,
+      "reaction": false
+    },
+    "threatening": false,
+    "summary": "Renverser ou repousser une cible."
+  },
+  {
+    "id": "a8719091-28ce-4a20-8f43-88a60109b7a7",
+    "path": "/regles/combat/activites/canaliser",
+    "name": "Canaliser",
+    "actions": {
+      "mandatory": 1,
+      "optional": 1,
+      "reaction": false
+    },
+    "threatening": true,
+    "summary": "Canaliser un pouvoir."
+  },
+  {
+    "id": "4db5e8cc-66ef-4905-9f28-d7b5eac86aaa",
+    "path": "/regles/combat/activites/chercher",
+    "name": "Chercher",
+    "actions": {
+      "mandatory": 1,
+      "optional": 0,
+      "reaction": false
+    },
+    "threatening": false,
+    "summary": "Détecter ce qui est caché."
+  },
+  {
+    "id": "d825c308-ebd1-4cc7-a636-a9f1ccfa08b7",
+    "path": "/regles/combat/activites/cacher",
+    "name": "Se cacher",
+    "actions": {
+      "mandatory": 1,
+      "optional": 0,
+      "reaction": false
+    },
+    "threatening": false,
+    "summary": "Se dissimuler de ses ennemis."
+  }
+]

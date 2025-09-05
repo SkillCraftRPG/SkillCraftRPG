@@ -4,6 +4,7 @@
     <AppBreadcrumb :active="title" />
     <!-- TODO(fpion): explanation text -->
     <p>{{ "[…]" }}</p>
+    <!-- TODO(fpion): catégorie de taille, Facteur de Charge, Espace occupé (carrés), Espace occupé (hexagones), component for table with props for reusability -->
   </main>
 </template>
 

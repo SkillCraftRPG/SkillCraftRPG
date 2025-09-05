@@ -36,9 +36,37 @@
         </tr>
       </thead>
       <tbody>
-        <tr v-for="(size, index) in sizes" :key="index">
-          <td>{{ size.text }}</td>
-          <td>{{ size.load }}</td>
+        <tr>
+          <td>{{ $t("size.category.options.Diminutive") }}</td>
+          <td>×¼</td>
+        </tr>
+        <tr>
+          <td>{{ $t("size.category.options.Tiny") }}</td>
+          <td>×½</td>
+        </tr>
+        <tr>
+          <td>{{ $t("size.category.options.Small") }}</td>
+          <td>×{{ getLoadMultiplier("Small") }}</td>
+        </tr>
+        <tr>
+          <td>{{ $t("size.category.options.Medium") }}</td>
+          <td>×{{ getLoadMultiplier("Medium") }}</td>
+        </tr>
+        <tr>
+          <td>{{ $t("size.category.options.Large") }}</td>
+          <td>×{{ getLoadMultiplier("Large") }}</td>
+        </tr>
+        <tr>
+          <td>{{ $t("size.category.options.Huge") }}</td>
+          <td>×{{ getLoadMultiplier("Huge") }}</td>
+        </tr>
+        <tr>
+          <td>{{ $t("size.category.options.Gargantuan") }}</td>
+          <td>×{{ getLoadMultiplier("Gargantuan") }}</td>
+        </tr>
+        <tr>
+          <td>{{ $t("size.category.options.Colossal") }}</td>
+          <td>×{{ getLoadMultiplier("Colossal") }}</td>
         </tr>
       </tbody>
     </table>
@@ -46,40 +74,10 @@
 </template>
 
 <script setup lang="ts">
-import { arrayUtils } from "logitar-js";
-
 import type { Breadcrumb } from "~/types/components";
-import type { SizeCategory } from "~/types/game";
 
 const parent: Breadcrumb[] = [{ text: "Équipement", to: "/regles/equipement" }];
 const title: string = "Encombrement";
-const { orderBy } = arrayUtils;
-
-type Size = {
-  text: string;
-  load: string;
-};
-const sizes = computed<Size[]>(() => {
-  const options: Record<string, unknown> = $tm("size.category.options");
-  return orderBy(
-    Object.keys(options).map((size) => ({
-      text: $t(`size.category.options.${size}`),
-      load: getLoadMultiplier(size as SizeCategory),
-    })),
-    "load",
-  ).map(({ text, load }) => {
-    let formattedLoad: string = `×${load}`;
-    switch (load) {
-      case 0.25:
-        formattedLoad = "×¼";
-        break;
-      case 0.5:
-        formattedLoad = "×½";
-        break;
-    }
-    return { text, load: formattedLoad };
-  });
-});
 
 useSeo({
   title,

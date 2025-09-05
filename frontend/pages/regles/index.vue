@@ -94,6 +94,11 @@ const tiles: Tile[] = [
     text: "Aventure",
     to: "/regles/aventure",
   },
+  {
+    icon: "fas fa-hand-fist",
+    text: "Combat",
+    to: "/regles/combat",
+  },
 ];
 const title: string = "Règles";
 

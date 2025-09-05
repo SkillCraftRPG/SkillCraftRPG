@@ -5,8 +5,9 @@
     <p>Une créature peut être attentive à son environnement pendant un déplacement.</p>
     <ul>
       <li>
-        En situation de combat ou de tour-par-tour, elle peut percevoir activement par l’action <strong>Chercher</strong>. Elle effectue alors un
-        <NuxtLink to="/regles/competences/tests">test</NuxtLink> de <NuxtLink to="/regles/competences/perception">Perception</NuxtLink>.
+        En situation de combat ou de tour-par-tour, elle peut percevoir activement par l’action
+        <NuxtLink to="/regles/combat/activites/chercher">Chercher</NuxtLink>. Elle effectue alors un <NuxtLink to="/regles/competences/tests">test</NuxtLink> de
+        <NuxtLink to="/regles/competences/perception">Perception</NuxtLink>.
       </li>
       <li>
         En période de voyage, elle effectue un <NuxtLink to="/regles/competences/tests/passif">test passif</NuxtLink> de Perception. Le test est effectué en

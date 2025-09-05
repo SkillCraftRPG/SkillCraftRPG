@@ -35,11 +35,15 @@
     <p>Certains tests opposés sont effectués avec une compétence différente pour l’acteur et pour sa cible, par exemple :</p>
     <ul>
       <li>
-        Une créature tente d’agripper une autre créature (<NuxtLink to="/regles/competences/athletisme">Athlétisme</NuxtLink>), qui tente se filer entre ses
-        doigts (<NuxtLink to="/regles/competences/acrobaties">Acrobaties</NuxtLink>).
+        Une créature tente d’<NuxtLink to="/regles/combat/activites/agripper">agripper</NuxtLink> une autre créature (<NuxtLink
+          to="/regles/competences/athletisme"
+          >Athlétisme</NuxtLink
+        >), qui tente se filer entre ses doigts (<NuxtLink to="/regles/competences/acrobaties">Acrobaties</NuxtLink>).
       </li>
       <li>
-        Une créature tente de se camoufler, de se déplacer furtivement ou de se faire discrète (<NuxtLink to="/regles/competences/furtivite">Furtivité</NuxtLink
+        Une créature tente de <NuxtLink to="/regles/combat/activites/cacher">se cacher</NuxtLink>, de se déplacer furtivement ou de se faire discrète (<NuxtLink
+          to="/regles/competences/furtivite"
+          >Furtivité</NuxtLink
         >), alors qu’une autre tente de la repérer (<NuxtLink to="/regles/competences/perception">Perception</NuxtLink>).
       </li>
       <li>

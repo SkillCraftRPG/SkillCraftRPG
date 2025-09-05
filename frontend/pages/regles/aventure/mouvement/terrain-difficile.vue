@@ -11,12 +11,18 @@
       <li>Surface glissante, par exemple une plaque de glace ou un pavé mouillé par la pluie.</li>
       <li>Surface étroite ou instable, par exemple une corde d’équilibriste ou un pont suspendu.</li>
       <li>Zone très encombrée, par exemple un placard jonché de babioles ou une végétation très dense.</li>
+      <li>
+        <NuxtLink to="/regles/aventure/mouvement/espace-occupe">Espace occupé</NuxtLink> par une créature de
+        <NuxtLink to="/regles/especes/taille">taille</NuxtLink> moyenne ou supérieure.
+      </li>
     </ul>
     <p>
       Une créature se déplaçant dans du terrain difficile voit sa <NuxtLink to="/regles/aventure/mouvement/vitesse">vitesse</NuxtLink> réduite de moitié. De
       plus, si elle <NuxtLink to="/regles/aventure/mouvement/types">court</NuxtLink> sur du terrain difficile, elle doit réussir un
       <NuxtLink to="/regles/competences/tests/sauvegarde">jet de sauvegarde</NuxtLink> d’<NuxtLink to="/regles/competences/acrobaties">Acrobaties</NuxtLink>
-      afin de ne pas tomber <strong>renversée</strong> au sol.
+      afin de ne pas tomber <NuxtLink to="/regles/combat/conditions/renverse">renversée</NuxtLink> au sol. La
+      <NuxtLink to="/regles/competences/tests/difficulte">difficulté</NuxtLink> varie en fonction de la quantité d’entraves sur le terrain. Généralement, cette
+      difficulté est de 10 + 5 fois le nombre d’entraves.
     </p>
     <ul>
       <li>

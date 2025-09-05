@@ -10,8 +10,8 @@
       effectués dans la zone. Voici des exemples de zones légèrement obscurcies : brouillard léger, végétation dense, pénombre.
     </p>
     <p>
-      Une zone <strong>lourdement obscurcie</strong> impose la condition <strong>Aveuglé</strong> aux créatures dans la zone. Voici des exemples de zones
-      lourdement obscurcies : brouillard épais, tempête, obscurité.
+      Une zone <strong>lourdement obscurcie</strong> <NuxtLink to="/regles/combat/conditions/aveugle">aveugle</NuxtLink> les créatures à l’intérieur de
+      celle-ci. Voici des exemples de zones lourdement obscurcies : brouillard épais, tempête, obscurité.
     </p>
     <h2 class="h3">Lumière</h2>
     <p>
@@ -32,7 +32,7 @@
     </p>
     <p>Une créature dotée de <strong>vision absolue</strong> peut voir dans l’obscurité, même si elle est magique, et acquiert les capacités suivantes.</p>
     <ul>
-      <li>Elle peut percevoir les objets et créatures <strong>invisibles</strong>.</li>
+      <li>Elle peut percevoir les objets et créatures <NuxtLink to="/regles/combat/conditions/invisible">invisibles</NuxtLink>.</li>
       <li>
         Elle détecte les illusions visuelles et réussit automatiquement ses
         <NuxtLink to="/regles/competences/tests/sauvegarde">jets de sauvegarde</NuxtLink> contre ces illusions.

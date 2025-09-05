@@ -2,7 +2,10 @@
   <main class="container">
     <h1>{{ title }}</h1>
     <AppBreadcrumb :active="title" :parent="parent" />
-    <p>Lorsqu’un personnage subit une chute, il reçoit des points de dégâts contondants létaux et tombe en position renversée.</p>
+    <p>
+      Lorsqu’un personnage subit une chute, il reçoit des points de dégâts contondants létaux et tombe en position
+      <NuxtLink to="/regles/combat/conditions/renverse">renversée</NuxtLink>.
+    </p>
     <p>Ces points de dégâts sont de 1d6 par tranche de 1,5 mètres de hauteur.</p>
     <h2 class="h3">Amortir sa chute</h2>
     <p>

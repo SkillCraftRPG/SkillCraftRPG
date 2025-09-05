@@ -30,10 +30,11 @@
             >
             et un jet de sauvegarde de <NuxtLink to="/regles/competences/resistance">Résistance</NuxtLink> de
             <NuxtLink to="/regles/competences/tests/difficulte">difficulté élevée</NuxtLink>. L’explosion inflige 12d6 points de dégâts de feu en cas d’échec du
-            jet de sauvegarde d’Acrobaties ou la moitié en cas de réussite. Une créature est renversée si elle échoue le jet de sauvegarde d’Acrobaties, et elle
-            est assourdie pendant 1d4 rounds de <NuxtLink to="/regles/aventure/temps">6 secondes</NuxtLink> en cas d’échec du jet de sauvegarde de Résistance.
-            Les flammes s’étendent dans les coins, et les objets inflammables dans la zone qui ne sont pas tenus ni portés prennent feu. Un nuage épais de fumée
-            englobe la zone pendant 3 rounds, créant une zone <NuxtLink to="/regles/aventure/environnement/vision">lourdement obscurcie</NuxtLink>.
+            jet de sauvegarde d’Acrobaties ou la moitié en cas de réussite. Une créature est
+            <NuxtLink to="/regles/combat/conditions/renverse">renversée</NuxtLink> si elle échoue le jet de sauvegarde d’Acrobaties, et elle est assourdie
+            pendant 1d4 rounds de <NuxtLink to="/regles/aventure/temps">6 secondes</NuxtLink> en cas d’échec du jet de sauvegarde de Résistance. Les flammes
+            s’étendent dans les coins, et les objets inflammables dans la zone qui ne sont pas tenus ni portés prennent feu. Un nuage épais de fumée englobe la
+            zone pendant 3 rounds, créant une zone <NuxtLink to="/regles/aventure/environnement/vision">lourdement obscurcie</NuxtLink>.
           </li>
         </ul>
       </li>
@@ -43,9 +44,9 @@
         grammes de poudre noire.
         <ul>
           <li>
-            Elle peut être allumée par une action <strong>Objet</strong>, puis lancée par une action <strong>Attaque</strong> en effectuant un
-            <NuxtLink to="/regles/competences/tests">test</NuxtLink> d’<NuxtLink to="/regles/competences/orientation">Orientation</NuxtLink>. Lorsqu’elle
-            percute le sol, une créature ou un objet, elle détone. Toute créature située à 3 mètres ou moins de l’impact doit effectuer un
+            Elle peut être allumée par une action <strong>Objet</strong>, puis lancée par une action <NuxtLink to="/regles/combat/attaque">Attaque</NuxtLink> en
+            effectuant un <NuxtLink to="/regles/competences/tests">test</NuxtLink> d’<NuxtLink to="/regles/competences/orientation">Orientation</NuxtLink>.
+            Lorsqu’elle percute le sol, une créature ou un objet, elle détone. Toute créature située à 3 mètres ou moins de l’impact doit effectuer un
             <NuxtLink to="/regles/competences/tests/sauvegarde">jet de sauvegarde</NuxtLink> d’<NuxtLink to="/regles/competences/acrobaties"
               >Acrobaties</NuxtLink
             >

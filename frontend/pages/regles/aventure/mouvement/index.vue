@@ -57,6 +57,11 @@ const items: MenuItem[] = [
     title: "Terrain difficile",
     description: "Terrain difficile : déplacements ralentis, risques accrus et pénalités.",
   },
+  {
+    path: "/regles/aventure/mouvement/espace-occupe",
+    title: "Espace occupé",
+    description: "Tableau des tailles et espace occupé (carrés/hexagones) avec règles de mouvement.",
+  },
 ];
 
 useSeo({
@@ -64,4 +69,7 @@ useSeo({
   description:
     "Découvrez les règles de déplacement des créatures : vitesse, cadence, types de mouvement, terrain difficile, furtivité et perception en voyage.",
 });
+
+// TODO(fpion): retirer toute mention de "case adjacent(e)" des règles
+// TODO(fpion): free item interaction
 </script>

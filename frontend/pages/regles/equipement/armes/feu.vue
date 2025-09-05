@@ -50,8 +50,9 @@
       Un personnage peut produire une petite explosion en allumant 10 grammes de poudre noire, ce qui produit un vif éclair de lumière. Toute créature située à
       1,5 mètres de l’explosion doit alors effectuer un <NuxtLink to="/regles/competences/tests/sauvegarde">jet de sauvegarde</NuxtLink> de
       <NuxtLink to="/regles/competences/resistance">Résistance</NuxtLink> de
-      <NuxtLink to="/regles/competences/tests/difficulte">difficulté élevée</NuxtLink> afin de ne pas être <strong>aveuglée</strong> pendant un round de
-      <NuxtLink to="/regles/aventure/temps">6 secondes</NuxtLink>. Également, une nuage léger de fumée englobe la zone pendant un round, créant une zone
+      <NuxtLink to="/regles/competences/tests/difficulte">difficulté élevée</NuxtLink> afin de ne pas être
+      <NuxtLink to="/regles/combat/conditions/aveugle">aveuglée</NuxtLink> pendant un round de <NuxtLink to="/regles/aventure/temps">6 secondes</NuxtLink>.
+      Également, une nuage léger de fumée englobe la zone pendant un round, créant une zone
       <NuxtLink to="/regles/aventure/environnement/vision">légèrement obscurcie</NuxtLink>.
     </p>
     <ItemExplosives />

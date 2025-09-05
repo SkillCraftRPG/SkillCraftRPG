@@ -11,6 +11,10 @@
       Les tests passifs n’octroient jamais de conséquences négatives ou positives, ni de
       <NuxtLink to="/regles/competences/esperance-damnation">points d’Espérance ni de Damnation</NuxtLink>.
     </p>
+    <p>
+      Chaque <NuxtLink to="/regles/competences/tests/avantage-desavantage">avantage</NuxtLink> confère un bonus (+5) au test passif. Au contraire, chaque
+      désavantage inflige une pénalité (-5) au test passif.
+    </p>
     <h2 class="h3">Exemples</h2>
     <ul>
       <li>

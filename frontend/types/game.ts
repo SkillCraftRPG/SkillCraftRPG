@@ -1,3 +1,18 @@
+export type Actions = {
+  mandatory: number;
+  optional: number;
+  reaction: boolean;
+};
+
+export type Activity = {
+  id: string;
+  path: string;
+  name: string;
+  actions: Actions;
+  threatening: boolean | "maybe";
+  summary: string;
+};
+
 export type Actor = {
   realmId?: string | null;
   type: ActorType;
