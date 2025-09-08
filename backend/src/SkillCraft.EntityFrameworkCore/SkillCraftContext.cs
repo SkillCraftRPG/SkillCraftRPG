@@ -3,7 +3,7 @@ using SkillCraft.EntityFrameworkCore.Entities;
 
 namespace SkillCraft.EntityFrameworkCore;
 
-internal class SkillCraftContext : DbContext
+public class SkillCraftContext : DbContext
 {
   public const string Schema = "SkillCraft";
 

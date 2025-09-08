@@ -1,10 +1,9 @@
-﻿using Krakenar.EntityFrameworkCore.Relational.Entities;
-using SkillCraft.Core.Worlds;
+﻿using SkillCraft.Core.Worlds;
 using SkillCraft.Core.Worlds.Events;
 
 namespace SkillCraft.EntityFrameworkCore.Entities;
 
-internal class WorldEntity : Aggregate
+internal class WorldEntity : AggregateEntity
 {
   public int WorldId { get; private set; }
   public Guid Id { get; private set; }

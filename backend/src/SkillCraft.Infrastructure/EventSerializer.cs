@@ -1,5 +1,4 @@
-﻿using Krakenar.Infrastructure.Converters;
-using SkillCraft.Infrastructure.Converters;
+﻿using SkillCraft.Infrastructure.Converters;
 
 namespace SkillCraft.Infrastructure;
 

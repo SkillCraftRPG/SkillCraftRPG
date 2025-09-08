@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using SkillCraft.Core.Worlds;
+using SkillCraft.EntityFrameworkCore.Actors;
 using SkillCraft.EntityFrameworkCore.Handlers;
 using SkillCraft.EntityFrameworkCore.Queriers;
 using SkillCraft.EntityFrameworkCore.Repositories;
@@ -13,7 +14,8 @@ public static class DependencyInjectionExtensions
     return services
       .AddSkillCraftHandlers()
       .AddSkillCraftQueriers()
-      .AddSkillCraftRepositories();
+      .AddSkillCraftRepositories()
+      .AddScoped<IActorService, ActorService>();
   }
 
   private static IServiceCollection AddSkillCraftHandlers(this IServiceCollection services)

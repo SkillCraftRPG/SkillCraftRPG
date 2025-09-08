@@ -15,7 +15,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Krakenar.EntityFrameworkCore.Relational" Version="1.1.0" />
+    <PackageReference Include="Logitar.EventSourcing.EntityFrameworkCore.Relational" Version="7.0.2" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,6 +24,7 @@
 
   <ItemGroup>
     <Using Include="System.Reflection" />
+    <Using Include="System.Text.Json" />
   </ItemGroup>
 
 </Project>
