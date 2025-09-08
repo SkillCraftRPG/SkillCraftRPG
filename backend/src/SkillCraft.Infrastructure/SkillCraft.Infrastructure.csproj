@@ -22,4 +22,9 @@
     <PackageReference Include="Krakenar.Infrastructure" Version="1.1.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Using Include="System.Text.Json" />
+    <Using Include="System.Text.Json.Serialization" />
+  </ItemGroup>
+
 </Project>

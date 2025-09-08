@@ -15,11 +15,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Krakenar.Core" Version="1.1.0" />
+    <PackageReference Include="Krakenar.EntityFrameworkCore.Relational" Version="1.1.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Using Include="System.Diagnostics.CodeAnalysis" />
+    <ProjectReference Include="..\SkillCraft.Infrastructure\SkillCraft.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="System.Reflection" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,5 @@
 ﻿using Krakenar.Core;
 using Logitar.EventSourcing;
-using System.Diagnostics.CodeAnalysis;
 
 namespace SkillCraft.Core.Worlds;
 
