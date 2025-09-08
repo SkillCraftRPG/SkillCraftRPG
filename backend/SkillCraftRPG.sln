@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{02EA681E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillCraft.Rules.Compiler", "tools\SkillCraft.Rules.Compiler\SkillCraft.Rules.Compiler.csproj", "{ECA10CEC-5CA2-4719-8F52-970BA11271E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillCraft.Infrastructure", "src\SkillCraft.Infrastructure\SkillCraft.Infrastructure.csproj", "{F1CFE9EF-8726-4628-9959-CAF08DCBBA66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{ECA10CEC-5CA2-4719-8F52-970BA11271E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECA10CEC-5CA2-4719-8F52-970BA11271E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECA10CEC-5CA2-4719-8F52-970BA11271E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1CFE9EF-8726-4628-9959-CAF08DCBBA66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1CFE9EF-8726-4628-9959-CAF08DCBBA66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1CFE9EF-8726-4628-9959-CAF08DCBBA66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1CFE9EF-8726-4628-9959-CAF08DCBBA66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
