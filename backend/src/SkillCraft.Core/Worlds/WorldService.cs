@@ -1,4 +1,5 @@
-﻿using Krakenar.Core;
+﻿using Krakenar.Contracts.Search;
+using Krakenar.Core;
 using Microsoft.Extensions.DependencyInjection;
 using SkillCraft.Core.Worlds.Commands;
 using SkillCraft.Core.Worlds.Models;
@@ -10,6 +11,7 @@ public interface IWorldService
 {
   Task<CreateOrReplaceWorldResult> CreateOrReplaceAsync(CreateOrReplaceWorldPayload payload, Guid? id = null, CancellationToken cancellationToken = default);
   Task<WorldModel?> ReadAsync(Guid id, CancellationToken cancellationToken = default);
+  Task<SearchResults<WorldModel>> SearchAsync(SearchWorldsPayload payload, CancellationToken cancellationToken = default);
   Task<WorldModel?> UpdateAsync(Guid id, UpdateWorldPayload payload, CancellationToken cancellationToken = default);
 }
 
@@ -41,6 +43,12 @@ internal class WorldService : IWorldService
   public async Task<WorldModel?> ReadAsync(Guid id, CancellationToken cancellationToken)
   {
     ReadWorldQuery query = new(id);
+    return await _queryBus.ExecuteAsync(query, cancellationToken);
+  }
+
+  public async Task<SearchResults<WorldModel>> SearchAsync(SearchWorldsPayload payload, CancellationToken cancellationToken)
+  {
+    SearchWorldsQuery query = new(payload);
     return await _queryBus.ExecuteAsync(query, cancellationToken);
   }
 

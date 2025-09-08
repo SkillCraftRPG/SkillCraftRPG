@@ -5,7 +5,7 @@ using SkillCraft.Core.Worlds.Validators;
 
 namespace SkillCraft.Core.Worlds.Commands;
 
-public record UpdateWorldCommand(Guid Id, UpdateWorldPayload Payload) : ICommand<WorldModel?>;
+internal record UpdateWorldCommand(Guid Id, UpdateWorldPayload Payload) : ICommand<WorldModel?>;
 
 /// <exception cref="ValidationException"></exception>
 internal class UpdateWorldCommandHandler : ICommandHandler<UpdateWorldCommand, WorldModel?>

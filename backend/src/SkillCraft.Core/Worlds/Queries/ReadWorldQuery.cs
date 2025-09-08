@@ -3,7 +3,7 @@ using SkillCraft.Core.Worlds.Models;
 
 namespace SkillCraft.Core.Worlds.Queries;
 
-public record ReadWorldQuery(Guid Id) : IQuery<WorldModel?>;
+internal record ReadWorldQuery(Guid Id) : IQuery<WorldModel?>;
 
 internal class ReadWorldQueryHandler : IQueryHandler<ReadWorldQuery, WorldModel?>
 {
