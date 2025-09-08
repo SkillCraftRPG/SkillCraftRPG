@@ -14,4 +14,8 @@
     <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Krakenar.Core" Version="1.1.0" />
+  </ItemGroup>
+
 </Project>
