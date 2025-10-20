@@ -19,7 +19,7 @@ internal class WorldEntity : AggregateEntity
   {
     Id = new WorldId(@event.StreamId).EntityId;
 
-    // TODO(fpion): OwnerId
+    OwnerId = @event.OwnerId.ToGuid();
 
     Name = @event.Name.Value;
   }

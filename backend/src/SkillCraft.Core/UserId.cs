@@ -12,10 +12,17 @@ public readonly struct UserId
     ActorId = actorId;
   }
 
+  public UserId(Guid value)
+  {
+    ActorId = new(value);
+  }
+
   public UserId(string value)
   {
     ActorId = new(value);
   }
+
+  public Guid ToGuid() => ActorId.ToGuid();
 
   public static bool operator ==(UserId left, UserId right) => left.Equals(right);
   public static bool operator !=(UserId left, UserId right) => !left.Equals(right);
