@@ -37,6 +37,8 @@ internal class CreateOrReplaceWorldCommandHandler : ICommandHandler<CreateOrRepl
     CreateOrReplaceWorldPayload payload = command.Payload;
     new CreateOrReplaceWorldValidator().ValidateAndThrow(payload);
 
+    ActorId? actorId = _applicationContext.ActorId;
+
     WorldId worldId = WorldId.NewId();
     World? world = null;
     if (command.Id.HasValue)
@@ -46,7 +48,6 @@ internal class CreateOrReplaceWorldCommandHandler : ICommandHandler<CreateOrRepl
     }
 
     Name name = new(payload.Name);
-    ActorId? actorId = _applicationContext.ActorId;
 
     bool created = false;
     if (world is null)

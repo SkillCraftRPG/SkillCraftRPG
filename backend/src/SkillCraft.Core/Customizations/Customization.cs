@@ -40,7 +40,7 @@ public class Customization : AggregateRoot
   }
 
   public Customization(Name name, ActorId? actorId = null, CustomizationId? customizationId = null)
-    : base((customizationId ?? CustomizationId.NewId()).StreamId)
+    : base(/*(customizationId ?? CustomizationId.NewId()).StreamId*/) // TODO(fpion): implement
   {
     Raise(new CustomizationCreated(name), actorId);
   }

@@ -3,6 +3,7 @@ using Logitar.EventSourcing;
 using SkillCraft.Core.Customizations.Models;
 using SkillCraft.Core.Customizations.Validators;
 using SkillCraft.Core.Permissions;
+using SkillCraft.Core.Worlds;
 
 namespace SkillCraft.Core.Customizations.Commands;
 
@@ -37,6 +38,9 @@ internal class CreateOrReplaceCustomizationCommandHandler : ICommandHandler<Crea
     CreateOrReplaceCustomizationPayload payload = command.Payload;
     new CreateOrReplaceCustomizationValidator().ValidateAndThrow(payload);
 
+    ActorId? actorId = _applicationContext.ActorId;
+    WorldId worldId = _applicationContext.WorldId;
+
     CustomizationId customizationId = CustomizationId.NewId(_applicationContext.WorldId);
     Customization? customization = null;
     if (command.Id.HasValue)
@@ -46,12 +50,11 @@ internal class CreateOrReplaceCustomizationCommandHandler : ICommandHandler<Crea
     }
 
     Name name = new(payload.Name);
-    ActorId? actorId = _applicationContext.ActorId;
 
     bool created = false;
     if (customization is null)
     {
-      //await _permissionService.CheckCreateCustomizationAsync(cancellationToken); // TODO(fpion): implement
+      await _permissionService.CheckAsync("CreateCustomization", worldId, cancellationToken);
 
       customization = new Customization(name, actorId, customizationId);
       created = true;
