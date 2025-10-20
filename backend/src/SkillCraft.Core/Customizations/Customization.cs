@@ -40,26 +40,26 @@ public class Customization : AggregateRoot
   {
   }
 
-  public Customization(CustomizationKind kind, Name name, ActorId? actorId = null, CustomizationId? customizationId = null)
-    : base(/*(customizationId ?? CustomizationId.NewId()).StreamId*/) // TODO(fpion): implement
+  public Customization(CustomizationKind kind, Name name, UserId userId, CustomizationId customizationId)
+    : base(customizationId.StreamId)
   {
     if (!Enum.IsDefined(kind))
     {
       throw new ArgumentOutOfRangeException(nameof(kind));
     }
 
-    Raise(new CustomizationCreated(kind, name), actorId);
+    Raise(new CustomizationCreated(kind, name), userId.ActorId);
   }
   protected virtual void Handle(CustomizationCreated @event)
   {
     _name = @event.Name;
   }
 
-  public void Update(ActorId? actorId = null)
+  public void Update(UserId userId)
   {
     if (HasUpdates)
     {
-      Raise(_updated, actorId, DateTime.Now);
+      Raise(_updated, userId.ActorId, DateTime.Now);
       _updated = new();
     }
   }

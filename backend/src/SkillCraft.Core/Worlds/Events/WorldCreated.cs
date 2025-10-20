@@ -2,4 +2,4 @@
 
 namespace SkillCraft.Core.Worlds.Events;
 
-public record WorldCreated(Name Name) : DomainEvent;
+public record WorldCreated(UserId OwnerId, Name Name) : DomainEvent;

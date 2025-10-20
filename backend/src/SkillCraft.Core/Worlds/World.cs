@@ -8,6 +8,8 @@ public class World : AggregateRoot
   private WorldUpdated _updated = new();
   private bool HasUpdates => _updated.Name is not null || _updated.Description is not null;
 
+  public UserId OwnerId { get; private set; }
+
   private Name? _name = null;
   public Name Name
   {
@@ -39,21 +41,23 @@ public class World : AggregateRoot
   {
   }
 
-  public World(Name name, ActorId? actorId = null, WorldId? worldId = null)
-    : base((worldId ?? WorldId.NewId()).StreamId)
+  public World(Name name, UserId userId, WorldId worldId)
+    : base(worldId.StreamId)
   {
-    Raise(new WorldCreated(name), actorId);
+    Raise(new WorldCreated(userId, name), userId.ActorId);
   }
   protected virtual void Handle(WorldCreated @event)
   {
+    OwnerId = @event.OwnerId;
+
     _name = @event.Name;
   }
 
-  public void Update(ActorId? actorId = null)
+  public void Update(UserId userId)
   {
     if (HasUpdates)
     {
-      Raise(_updated, actorId, DateTime.Now);
+      Raise(_updated, userId.ActorId, DateTime.Now);
       _updated = new();
     }
   }

@@ -1,10 +1,9 @@
-﻿using Logitar.EventSourcing;
-using SkillCraft.Core.Worlds;
+﻿using SkillCraft.Core.Worlds;
 
 namespace SkillCraft.Core;
 
 public interface IApplicationContext
 {
-  ActorId? ActorId { get; }
+  UserId UserId { get; }
   WorldId WorldId { get; }
 }

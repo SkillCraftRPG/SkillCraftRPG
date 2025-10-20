@@ -1,5 +1,4 @@
 ﻿using FluentValidation;
-using Logitar.EventSourcing;
 using SkillCraft.Core.Customizations.Models;
 using SkillCraft.Core.Customizations.Validators;
 using SkillCraft.Core.Permissions;
@@ -38,7 +37,7 @@ internal class CreateOrReplaceCustomizationCommandHandler : ICommandHandler<Crea
     CreateOrReplaceCustomizationPayload payload = command.Payload;
     new CreateOrReplaceCustomizationValidator().ValidateAndThrow(payload);
 
-    ActorId? actorId = _applicationContext.ActorId;
+    UserId userId = _applicationContext.UserId;
     WorldId worldId = _applicationContext.WorldId;
 
     CustomizationId customizationId = CustomizationId.NewId(_applicationContext.WorldId);
@@ -56,7 +55,7 @@ internal class CreateOrReplaceCustomizationCommandHandler : ICommandHandler<Crea
     {
       await _permissionService.CheckAsync("CreateCustomization", worldId, cancellationToken);
 
-      customization = new Customization(payload.Kind, name, actorId, customizationId);
+      customization = new Customization(payload.Kind, name, userId, customizationId);
       created = true;
     }
     else
@@ -68,7 +67,7 @@ internal class CreateOrReplaceCustomizationCommandHandler : ICommandHandler<Crea
 
     customization.Description = Description.TryCreate(payload.Description);
 
-    customization.Update(actorId);
+    customization.Update(userId);
     await _customizationManager.SaveAsync(customization, cancellationToken);
 
     CustomizationModel model = await _customizationQuerier.ReadAsync(customization, cancellationToken);

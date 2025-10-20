@@ -1,5 +1,4 @@
 ﻿using FluentValidation;
-using Logitar.EventSourcing;
 using SkillCraft.Core.Permissions;
 using SkillCraft.Core.Worlds.Models;
 using SkillCraft.Core.Worlds.Validators;
@@ -37,7 +36,7 @@ internal class CreateOrReplaceWorldCommandHandler : ICommandHandler<CreateOrRepl
     CreateOrReplaceWorldPayload payload = command.Payload;
     new CreateOrReplaceWorldValidator().ValidateAndThrow(payload);
 
-    ActorId? actorId = _applicationContext.ActorId;
+    UserId userId = _applicationContext.UserId;
 
     WorldId worldId = WorldId.NewId();
     World? world = null;
@@ -54,7 +53,7 @@ internal class CreateOrReplaceWorldCommandHandler : ICommandHandler<CreateOrRepl
     {
       await _permissionService.CheckCreateWorldAsync(cancellationToken);
 
-      world = new World(name, actorId, worldId);
+      world = new World(name, userId, worldId);
       created = true;
     }
     else
@@ -66,7 +65,7 @@ internal class CreateOrReplaceWorldCommandHandler : ICommandHandler<CreateOrRepl
 
     world.Description = Description.TryCreate(payload.Description);
 
-    world.Update(actorId);
+    world.Update(userId);
     await _worldManager.SaveAsync(world, cancellationToken);
 
     WorldModel model = await _worldQuerier.ReadAsync(world, cancellationToken);
