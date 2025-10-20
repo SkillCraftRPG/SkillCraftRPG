@@ -1,5 +1,6 @@
 ﻿using Logitar.EventSourcing;
+using SkillCraft.Contracts;
 
 namespace SkillCraft.Core.Customizations.Events;
 
-public record CustomizationCreated(Name Name) : DomainEvent;
+public record CustomizationCreated(CustomizationKind Kind, Name Name) : DomainEvent;

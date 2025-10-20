@@ -56,7 +56,7 @@ internal class CreateOrReplaceCustomizationCommandHandler : ICommandHandler<Crea
     {
       await _permissionService.CheckAsync("CreateCustomization", worldId, cancellationToken);
 
-      customization = new Customization(name, actorId, customizationId);
+      customization = new Customization(payload.Kind, name, actorId, customizationId);
       created = true;
     }
     else

@@ -1,4 +1,5 @@
 ﻿using Logitar.EventSourcing;
+using SkillCraft.Contracts;
 using SkillCraft.Core.Customizations.Events;
 
 namespace SkillCraft.Core.Customizations;
@@ -17,7 +18,7 @@ public class Customization : AggregateRoot
       if (_name != value)
       {
         _name = value;
-        _updated.Name = new Change<Name>(value);
+        _updated.Name = value;
       }
     }
   }
@@ -39,10 +40,15 @@ public class Customization : AggregateRoot
   {
   }
 
-  public Customization(Name name, ActorId? actorId = null, CustomizationId? customizationId = null)
+  public Customization(CustomizationKind kind, Name name, ActorId? actorId = null, CustomizationId? customizationId = null)
     : base(/*(customizationId ?? CustomizationId.NewId()).StreamId*/) // TODO(fpion): implement
   {
-    Raise(new CustomizationCreated(name), actorId);
+    if (!Enum.IsDefined(kind))
+    {
+      throw new ArgumentOutOfRangeException(nameof(kind));
+    }
+
+    Raise(new CustomizationCreated(kind, name), actorId);
   }
   protected virtual void Handle(CustomizationCreated @event)
   {
@@ -61,7 +67,7 @@ public class Customization : AggregateRoot
   {
     if (@event.Name is not null)
     {
-      _name = @event.Name.Value;
+      _name = @event.Name;
     }
     if (@event.Description is not null)
     {

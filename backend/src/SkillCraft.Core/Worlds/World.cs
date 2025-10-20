@@ -17,7 +17,7 @@ public class World : AggregateRoot
       if (_name != value)
       {
         _name = value;
-        _updated.Name = new Change<Name>(value);
+        _updated.Name = value;
       }
     }
   }
@@ -61,7 +61,7 @@ public class World : AggregateRoot
   {
     if (@event.Name is not null)
     {
-      _name = @event.Name.Value;
+      _name = @event.Name;
     }
     if (@event.Description is not null)
     {
