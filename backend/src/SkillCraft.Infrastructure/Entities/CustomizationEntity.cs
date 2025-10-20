@@ -22,7 +22,7 @@ internal class CustomizationEntity : AggregateEntity
   {
     World = world;
     WorldId = world.WorldId;
-    WorldUid = world.Id;
+    WorldUid = world.EntityId;
 
     EntityId = new CustomizationId(@event.StreamId).EntityId;
 

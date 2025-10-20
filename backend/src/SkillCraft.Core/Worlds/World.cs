@@ -8,6 +8,8 @@ public class World : AggregateRoot
   private WorldUpdated _updated = new();
   private bool HasUpdates => _updated.Name is not null || _updated.Description is not null;
 
+  public new WorldId Id => new(base.Id);
+
   public UserId OwnerId { get; private set; }
 
   private Name? _name = null;

@@ -9,6 +9,8 @@ public class Customization : AggregateRoot
   private CustomizationUpdated _updated = new();
   private bool HasUpdates => _updated.Name is not null || _updated.Description is not null;
 
+  public new CustomizationId Id => new(base.Id);
+
   private Name? _name = null;
   public Name Name
   {

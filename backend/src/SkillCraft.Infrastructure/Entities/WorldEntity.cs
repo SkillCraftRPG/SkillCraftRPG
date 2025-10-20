@@ -6,7 +6,7 @@ namespace SkillCraft.Infrastructure.Entities;
 internal class WorldEntity : AggregateEntity
 {
   public int WorldId { get; private set; }
-  public Guid Id { get; private set; }
+  public Guid EntityId { get; private set; }
 
   public Guid OwnerId { get; private set; }
 
@@ -17,7 +17,7 @@ internal class WorldEntity : AggregateEntity
 
   public WorldEntity(WorldCreated @event) : base(@event)
   {
-    Id = new WorldId(@event.StreamId).EntityId;
+    EntityId = new WorldId(@event.StreamId).EntityId;
 
     OwnerId = @event.OwnerId.ToGuid();
 
