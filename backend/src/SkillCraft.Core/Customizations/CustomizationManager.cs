@@ -1,4 +1,6 @@
-﻿namespace SkillCraft.Core.Customizations;
+﻿using SkillCraft.Core.Storages;
+
+namespace SkillCraft.Core.Customizations;
 
 public interface ICustomizationManager
 {
@@ -8,18 +10,20 @@ public interface ICustomizationManager
 internal class CustomizationManager : ICustomizationManager
 {
   private readonly ICustomizationRepository _customizationRepository;
+  private readonly IStorageManager _storageManager;
 
-  public CustomizationManager(ICustomizationRepository customizationRepository)
+  public CustomizationManager(ICustomizationRepository customizationRepository, IStorageManager storageManager)
   {
     _customizationRepository = customizationRepository;
+    _storageManager = storageManager;
   }
 
   public async Task SaveAsync(Customization customization, CancellationToken cancellationToken)
   {
-    // TODO(fpion): ensure enough storage
+    await _storageManager.EnsureAvailableAsync(customization, cancellationToken);
 
     await _customizationRepository.SaveAsync(customization, cancellationToken);
 
-    // TODO(fpion): update storage
+    await _storageManager.UpdateAsync(customization, cancellationToken);
   }
 }

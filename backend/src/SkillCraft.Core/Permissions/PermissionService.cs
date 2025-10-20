@@ -11,13 +11,13 @@ public interface IPermissionService
 internal class PermissionService : IPermissionService
 {
   public async Task CheckAsync(ActionKind action, object resource, CancellationToken cancellationToken) => await CheckAsync(action.ToString(), resource, cancellationToken);
-  public async Task CheckAsync(string action, object resource, CancellationToken cancellationToken)
+  public Task CheckAsync(string action, object resource, CancellationToken cancellationToken)
   {
-    await Task.Delay(1000, cancellationToken); // TODO(fpion): implement
+    throw new NotImplementedException(); // TODO(fpion): implement
   }
 
-  public async Task CheckCreateWorldAsync(CancellationToken cancellationToken)
+  public Task CheckCreateWorldAsync(CancellationToken cancellationToken)
   {
-    await Task.Delay(1000, cancellationToken); // TODO(fpion): implement
+    throw new NotImplementedException(); // TODO(fpion): implement
   }
 }

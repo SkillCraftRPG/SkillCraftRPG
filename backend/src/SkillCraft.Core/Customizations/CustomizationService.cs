@@ -14,7 +14,7 @@ internal class CustomizationService : ICustomizationService
   public static void Register(IServiceCollection services)
   {
     services.AddTransient<ICustomizationService, CustomizationService>();
-    services.AddTransient<ICustomizationManager, CustomizationManager>();
+    services.AddTransient<CustomizationManager, CustomizationManager>();
     services.AddTransient<ICommandHandler<CreateOrReplaceCustomizationCommand, CreateOrReplaceCustomizationResult>, CreateOrReplaceCustomizationCommandHandler>();
   }
 
